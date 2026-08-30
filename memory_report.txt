@@ -1,0 +1,14 @@
+Memory Usage Report
+===================
+
+Tool:
+GNU /usr/bin/time -v
+
+Command:
+/usr/bin/time -v ./bank_system < big_test.in > output.txt
+
+Elapsed Time:
+32.08 seconds
+
+Maximum Resident Set Size:
+5140 kbytes (≈ 5.02 MB)

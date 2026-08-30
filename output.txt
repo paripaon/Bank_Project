@@ -1,0 +1,5350 @@
+Enter national code: 
+Enter user password: 
+User created.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5175
+Enter account password: Account created. Number: 5022-0000-0000-5176
+Enter account password: Account created. Number: 5022-0000-0000-5177
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5178
+Enter account password: Account created. Number: 5022-0000-0000-5179
+Enter account password: Account created. Number: 5022-0000-0000-5180
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5181
+Enter account password: Account created. Number: 5022-0000-0000-5182
+Enter account password: Account created. Number: 5022-0000-0000-5183
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5184
+Enter account password: Account created. Number: 5022-0000-0000-5185
+Enter account password: Account created. Number: 5022-0000-0000-5186
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5187
+Enter account password: Account created. Number: 5022-0000-0000-5188
+Enter account password: Account created. Number: 5022-0000-0000-5189
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5190
+Enter account password: Account created. Number: 5022-0000-0000-5191
+Enter account password: Account created. Number: 5022-0000-0000-5192
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5193
+Enter account password: Account created. Number: 5022-0000-0000-5194
+Enter account password: Account created. Number: 5022-0000-0000-5195
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5196
+Enter account password: Account created. Number: 5022-0000-0000-5197
+Enter account password: Account created. Number: 5022-0000-0000-5198
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5199
+Enter account password: Account created. Number: 5022-0000-0000-5200
+Enter account password: Account created. Number: 5022-0000-0000-5201
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5202
+Enter account password: Account created. Number: 5022-0000-0000-5203
+Enter account password: Account created. Number: 5022-0000-0000-5204
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5205
+Enter account password: Account created. Number: 5022-0000-0000-5206
+Enter account password: Account created. Number: 5022-0000-0000-5207
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5208
+Enter account password: Account created. Number: 5022-0000-0000-5209
+Enter account password: Account created. Number: 5022-0000-0000-5210
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5211
+Enter account password: Account created. Number: 5022-0000-0000-5212
+Enter account password: Account created. Number: 5022-0000-0000-5213
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5214
+Enter account password: Account created. Number: 5022-0000-0000-5215
+Enter account password: Account created. Number: 5022-0000-0000-5216
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5217
+Enter account password: Account created. Number: 5022-0000-0000-5218
+Enter account password: Account created. Number: 5022-0000-0000-5219
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5220
+Enter account password: Account created. Number: 5022-0000-0000-5221
+Enter account password: Account created. Number: 5022-0000-0000-5222
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5223
+Enter account password: Account created. Number: 5022-0000-0000-5224
+Enter account password: Account created. Number: 5022-0000-0000-5225
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5226
+Enter account password: Account created. Number: 5022-0000-0000-5227
+Enter account password: Account created. Number: 5022-0000-0000-5228
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5229
+Enter account password: Account created. Number: 5022-0000-0000-5230
+Enter account password: Account created. Number: 5022-0000-0000-5231
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5232
+Enter account password: Account created. Number: 5022-0000-0000-5233
+Enter account password: Account created. Number: 5022-0000-0000-5234
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5235
+Enter account password: Account created. Number: 5022-0000-0000-5236
+Enter account password: Account created. Number: 5022-0000-0000-5237
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5238
+Enter account password: Account created. Number: 5022-0000-0000-5239
+Enter account password: Account created. Number: 5022-0000-0000-5240
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5241
+Enter account password: Account created. Number: 5022-0000-0000-5242
+Enter account password: Account created. Number: 5022-0000-0000-5243
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5244
+Enter account password: Account created. Number: 5022-0000-0000-5245
+Enter account password: Account created. Number: 5022-0000-0000-5246
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5247
+Enter account password: Account created. Number: 5022-0000-0000-5248
+Enter account password: Account created. Number: 5022-0000-0000-5249
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5250
+Enter account password: Account created. Number: 5022-0000-0000-5251
+Enter account password: Account created. Number: 5022-0000-0000-5252
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5253
+Enter account password: Account created. Number: 5022-0000-0000-5254
+Enter account password: Account created. Number: 5022-0000-0000-5255
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5256
+Enter account password: Account created. Number: 5022-0000-0000-5257
+Enter account password: Account created. Number: 5022-0000-0000-5258
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5259
+Enter account password: Account created. Number: 5022-0000-0000-5260
+Enter account password: Account created. Number: 5022-0000-0000-5261
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5262
+Enter account password: Account created. Number: 5022-0000-0000-5263
+Enter account password: Account created. Number: 5022-0000-0000-5264
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5265
+Enter account password: Account created. Number: 5022-0000-0000-5266
+Enter account password: Account created. Number: 5022-0000-0000-5267
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5268
+Enter account password: Account created. Number: 5022-0000-0000-5269
+Enter account password: Account created. Number: 5022-0000-0000-5270
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5271
+Enter account password: Account created. Number: 5022-0000-0000-5272
+Enter account password: Account created. Number: 5022-0000-0000-5273
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5274
+Enter account password: Account created. Number: 5022-0000-0000-5275
+Enter account password: Account created. Number: 5022-0000-0000-5276
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5277
+Enter account password: Account created. Number: 5022-0000-0000-5278
+Enter account password: Account created. Number: 5022-0000-0000-5279
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5280
+Enter account password: Account created. Number: 5022-0000-0000-5281
+Enter account password: Account created. Number: 5022-0000-0000-5282
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5283
+Enter account password: Account created. Number: 5022-0000-0000-5284
+Enter account password: Account created. Number: 5022-0000-0000-5285
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5286
+Enter account password: Account created. Number: 5022-0000-0000-5287
+Enter account password: Account created. Number: 5022-0000-0000-5288
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5289
+Enter account password: Account created. Number: 5022-0000-0000-5290
+Enter account password: Account created. Number: 5022-0000-0000-5291
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5292
+Enter account password: Account created. Number: 5022-0000-0000-5293
+Enter account password: Account created. Number: 5022-0000-0000-5294
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5295
+Enter account password: Account created. Number: 5022-0000-0000-5296
+Enter account password: Account created. Number: 5022-0000-0000-5297
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5298
+Enter account password: Account created. Number: 5022-0000-0000-5299
+Enter account password: Account created. Number: 5022-0000-0000-5300
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5301
+Enter account password: Account created. Number: 5022-0000-0000-5302
+Enter account password: Account created. Number: 5022-0000-0000-5303
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5304
+Enter account password: Account created. Number: 5022-0000-0000-5305
+Enter account password: Account created. Number: 5022-0000-0000-5306
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5307
+Enter account password: Account created. Number: 5022-0000-0000-5308
+Enter account password: Account created. Number: 5022-0000-0000-5309
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5310
+Enter account password: Account created. Number: 5022-0000-0000-5311
+Enter account password: Account created. Number: 5022-0000-0000-5312
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5313
+Enter account password: Account created. Number: 5022-0000-0000-5314
+Enter account password: Account created. Number: 5022-0000-0000-5315
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5316
+Enter account password: Account created. Number: 5022-0000-0000-5317
+Enter account password: Account created. Number: 5022-0000-0000-5318
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5319
+Enter account password: Account created. Number: 5022-0000-0000-5320
+Enter account password: Account created. Number: 5022-0000-0000-5321
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5322
+Enter account password: Account created. Number: 5022-0000-0000-5323
+Enter account password: Account created. Number: 5022-0000-0000-5324
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5325
+Enter account password: Account created. Number: 5022-0000-0000-5326
+Enter account password: Account created. Number: 5022-0000-0000-5327
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5328
+Enter account password: Account created. Number: 5022-0000-0000-5329
+Enter account password: Account created. Number: 5022-0000-0000-5330
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5331
+Enter account password: Account created. Number: 5022-0000-0000-5332
+Enter account password: Account created. Number: 5022-0000-0000-5333
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5334
+Enter account password: Account created. Number: 5022-0000-0000-5335
+Enter account password: Account created. Number: 5022-0000-0000-5336
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5337
+Enter account password: Account created. Number: 5022-0000-0000-5338
+Enter account password: Account created. Number: 5022-0000-0000-5339
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5340
+Enter account password: Account created. Number: 5022-0000-0000-5341
+Enter account password: Account created. Number: 5022-0000-0000-5342
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5343
+Enter account password: Account created. Number: 5022-0000-0000-5344
+Enter account password: Account created. Number: 5022-0000-0000-5345
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5346
+Enter account password: Account created. Number: 5022-0000-0000-5347
+Enter account password: Account created. Number: 5022-0000-0000-5348
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5349
+Enter account password: Account created. Number: 5022-0000-0000-5350
+Enter account password: Account created. Number: 5022-0000-0000-5351
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5352
+Enter account password: Account created. Number: 5022-0000-0000-5353
+Enter account password: Account created. Number: 5022-0000-0000-5354
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5355
+Enter account password: Account created. Number: 5022-0000-0000-5356
+Enter account password: Account created. Number: 5022-0000-0000-5357
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5358
+Enter account password: Account created. Number: 5022-0000-0000-5359
+Enter account password: Account created. Number: 5022-0000-0000-5360
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5361
+Enter account password: Account created. Number: 5022-0000-0000-5362
+Enter account password: Account created. Number: 5022-0000-0000-5363
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5364
+Enter account password: Account created. Number: 5022-0000-0000-5365
+Enter account password: Account created. Number: 5022-0000-0000-5366
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5367
+Enter account password: Account created. Number: 5022-0000-0000-5368
+Enter account password: Account created. Number: 5022-0000-0000-5369
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5370
+Enter account password: Account created. Number: 5022-0000-0000-5371
+Enter account password: Account created. Number: 5022-0000-0000-5372
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5373
+Enter account password: Account created. Number: 5022-0000-0000-5374
+Enter account password: Account created. Number: 5022-0000-0000-5375
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5376
+Enter account password: Account created. Number: 5022-0000-0000-5377
+Enter account password: Account created. Number: 5022-0000-0000-5378
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5379
+Enter account password: Account created. Number: 5022-0000-0000-5380
+Enter account password: Account created. Number: 5022-0000-0000-5381
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5382
+Enter account password: Account created. Number: 5022-0000-0000-5383
+Enter account password: Account created. Number: 5022-0000-0000-5384
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5385
+Enter account password: Account created. Number: 5022-0000-0000-5386
+Enter account password: Account created. Number: 5022-0000-0000-5387
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5388
+Enter account password: Account created. Number: 5022-0000-0000-5389
+Enter account password: Account created. Number: 5022-0000-0000-5390
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5391
+Enter account password: Account created. Number: 5022-0000-0000-5392
+Enter account password: Account created. Number: 5022-0000-0000-5393
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5394
+Enter account password: Account created. Number: 5022-0000-0000-5395
+Enter account password: Account created. Number: 5022-0000-0000-5396
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5397
+Enter account password: Account created. Number: 5022-0000-0000-5398
+Enter account password: Account created. Number: 5022-0000-0000-5399
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5400
+Enter account password: Account created. Number: 5022-0000-0000-5401
+Enter account password: Account created. Number: 5022-0000-0000-5402
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5403
+Enter account password: Account created. Number: 5022-0000-0000-5404
+Enter account password: Account created. Number: 5022-0000-0000-5405
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5406
+Enter account password: Account created. Number: 5022-0000-0000-5407
+Enter account password: Account created. Number: 5022-0000-0000-5408
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5409
+Enter account password: Account created. Number: 5022-0000-0000-5410
+Enter account password: Account created. Number: 5022-0000-0000-5411
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5412
+Enter account password: Account created. Number: 5022-0000-0000-5413
+Enter account password: Account created. Number: 5022-0000-0000-5414
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5415
+Enter account password: Account created. Number: 5022-0000-0000-5416
+Enter account password: Account created. Number: 5022-0000-0000-5417
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5418
+Enter account password: Account created. Number: 5022-0000-0000-5419
+Enter account password: Account created. Number: 5022-0000-0000-5420
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5421
+Enter account password: Account created. Number: 5022-0000-0000-5422
+Enter account password: Account created. Number: 5022-0000-0000-5423
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5424
+Enter account password: Account created. Number: 5022-0000-0000-5425
+Enter account password: Account created. Number: 5022-0000-0000-5426
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5427
+Enter account password: Account created. Number: 5022-0000-0000-5428
+Enter account password: Account created. Number: 5022-0000-0000-5429
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5430
+Enter account password: Account created. Number: 5022-0000-0000-5431
+Enter account password: Account created. Number: 5022-0000-0000-5432
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5433
+Enter account password: Account created. Number: 5022-0000-0000-5434
+Enter account password: Account created. Number: 5022-0000-0000-5435
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5436
+Enter account password: Account created. Number: 5022-0000-0000-5437
+Enter account password: Account created. Number: 5022-0000-0000-5438
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5439
+Enter account password: Account created. Number: 5022-0000-0000-5440
+Enter account password: Account created. Number: 5022-0000-0000-5441
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5442
+Enter account password: Account created. Number: 5022-0000-0000-5443
+Enter account password: Account created. Number: 5022-0000-0000-5444
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5445
+Enter account password: Account created. Number: 5022-0000-0000-5446
+Enter account password: Account created. Number: 5022-0000-0000-5447
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5448
+Enter account password: Account created. Number: 5022-0000-0000-5449
+Enter account password: Account created. Number: 5022-0000-0000-5450
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5451
+Enter account password: Account created. Number: 5022-0000-0000-5452
+Enter account password: Account created. Number: 5022-0000-0000-5453
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5454
+Enter account password: Account created. Number: 5022-0000-0000-5455
+Enter account password: Account created. Number: 5022-0000-0000-5456
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5457
+Enter account password: Account created. Number: 5022-0000-0000-5458
+Enter account password: Account created. Number: 5022-0000-0000-5459
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5460
+Enter account password: Account created. Number: 5022-0000-0000-5461
+Enter account password: Account created. Number: 5022-0000-0000-5462
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5463
+Enter account password: Account created. Number: 5022-0000-0000-5464
+Enter account password: Account created. Number: 5022-0000-0000-5465
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5466
+Enter account password: Account created. Number: 5022-0000-0000-5467
+Enter account password: Account created. Number: 5022-0000-0000-5468
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5469
+Enter account password: Account created. Number: 5022-0000-0000-5470
+Enter account password: Account created. Number: 5022-0000-0000-5471
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5472
+Enter account password: Account created. Number: 5022-0000-0000-5473
+Enter account password: Account created. Number: 5022-0000-0000-5474
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5475
+Enter account password: Account created. Number: 5022-0000-0000-5476
+Enter account password: Account created. Number: 5022-0000-0000-5477
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5478
+Enter account password: Account created. Number: 5022-0000-0000-5479
+Enter account password: Account created. Number: 5022-0000-0000-5480
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5481
+Enter account password: Account created. Number: 5022-0000-0000-5482
+Enter account password: Account created. Number: 5022-0000-0000-5483
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5484
+Enter account password: Account created. Number: 5022-0000-0000-5485
+Enter account password: Account created. Number: 5022-0000-0000-5486
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5487
+Enter account password: Account created. Number: 5022-0000-0000-5488
+Enter account password: Account created. Number: 5022-0000-0000-5489
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5490
+Enter account password: Account created. Number: 5022-0000-0000-5491
+Enter account password: Account created. Number: 5022-0000-0000-5492
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5493
+Enter account password: Account created. Number: 5022-0000-0000-5494
+Enter account password: Account created. Number: 5022-0000-0000-5495
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5496
+Enter account password: Account created. Number: 5022-0000-0000-5497
+Enter account password: Account created. Number: 5022-0000-0000-5498
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5499
+Enter account password: Account created. Number: 5022-0000-0000-5500
+Enter account password: Account created. Number: 5022-0000-0000-5501
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5502
+Enter account password: Account created. Number: 5022-0000-0000-5503
+Enter account password: Account created. Number: 5022-0000-0000-5504
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5505
+Enter account password: Account created. Number: 5022-0000-0000-5506
+Enter account password: Account created. Number: 5022-0000-0000-5507
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5508
+Enter account password: Account created. Number: 5022-0000-0000-5509
+Enter account password: Account created. Number: 5022-0000-0000-5510
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5511
+Enter account password: Account created. Number: 5022-0000-0000-5512
+Enter account password: Account created. Number: 5022-0000-0000-5513
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5514
+Enter account password: Account created. Number: 5022-0000-0000-5515
+Enter account password: Account created. Number: 5022-0000-0000-5516
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5517
+Enter account password: Account created. Number: 5022-0000-0000-5518
+Enter account password: Account created. Number: 5022-0000-0000-5519
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5520
+Enter account password: Account created. Number: 5022-0000-0000-5521
+Enter account password: Account created. Number: 5022-0000-0000-5522
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5523
+Enter account password: Account created. Number: 5022-0000-0000-5524
+Enter account password: Account created. Number: 5022-0000-0000-5525
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5526
+Enter account password: Account created. Number: 5022-0000-0000-5527
+Enter account password: Account created. Number: 5022-0000-0000-5528
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5529
+Enter account password: Account created. Number: 5022-0000-0000-5530
+Enter account password: Account created. Number: 5022-0000-0000-5531
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5532
+Enter account password: Account created. Number: 5022-0000-0000-5533
+Enter account password: Account created. Number: 5022-0000-0000-5534
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5535
+Enter account password: Account created. Number: 5022-0000-0000-5536
+Enter account password: Account created. Number: 5022-0000-0000-5537
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5538
+Enter account password: Account created. Number: 5022-0000-0000-5539
+Enter account password: Account created. Number: 5022-0000-0000-5540
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5541
+Enter account password: Account created. Number: 5022-0000-0000-5542
+Enter account password: Account created. Number: 5022-0000-0000-5543
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5544
+Enter account password: Account created. Number: 5022-0000-0000-5545
+Enter account password: Account created. Number: 5022-0000-0000-5546
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5547
+Enter account password: Account created. Number: 5022-0000-0000-5548
+Enter account password: Account created. Number: 5022-0000-0000-5549
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5550
+Enter account password: Account created. Number: 5022-0000-0000-5551
+Enter account password: Account created. Number: 5022-0000-0000-5552
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5553
+Enter account password: Account created. Number: 5022-0000-0000-5554
+Enter account password: Account created. Number: 5022-0000-0000-5555
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5556
+Enter account password: Account created. Number: 5022-0000-0000-5557
+Enter account password: Account created. Number: 5022-0000-0000-5558
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5559
+Enter account password: Account created. Number: 5022-0000-0000-5560
+Enter account password: Account created. Number: 5022-0000-0000-5561
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5562
+Enter account password: Account created. Number: 5022-0000-0000-5563
+Enter account password: Account created. Number: 5022-0000-0000-5564
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5565
+Enter account password: Account created. Number: 5022-0000-0000-5566
+Enter account password: Account created. Number: 5022-0000-0000-5567
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5568
+Enter account password: Account created. Number: 5022-0000-0000-5569
+Enter account password: Account created. Number: 5022-0000-0000-5570
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5571
+Enter account password: Account created. Number: 5022-0000-0000-5572
+Enter account password: Account created. Number: 5022-0000-0000-5573
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5574
+Enter account password: Account created. Number: 5022-0000-0000-5575
+Enter account password: Account created. Number: 5022-0000-0000-5576
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5577
+Enter account password: Account created. Number: 5022-0000-0000-5578
+Enter account password: Account created. Number: 5022-0000-0000-5579
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5580
+Enter account password: Account created. Number: 5022-0000-0000-5581
+Enter account password: Account created. Number: 5022-0000-0000-5582
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5583
+Enter account password: Account created. Number: 5022-0000-0000-5584
+Enter account password: Account created. Number: 5022-0000-0000-5585
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5586
+Enter account password: Account created. Number: 5022-0000-0000-5587
+Enter account password: Account created. Number: 5022-0000-0000-5588
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5589
+Enter account password: Account created. Number: 5022-0000-0000-5590
+Enter account password: Account created. Number: 5022-0000-0000-5591
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5592
+Enter account password: Account created. Number: 5022-0000-0000-5593
+Enter account password: Account created. Number: 5022-0000-0000-5594
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5595
+Enter account password: Account created. Number: 5022-0000-0000-5596
+Enter account password: Account created. Number: 5022-0000-0000-5597
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5598
+Enter account password: Account created. Number: 5022-0000-0000-5599
+Enter account password: Account created. Number: 5022-0000-0000-5600
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5601
+Enter account password: Account created. Number: 5022-0000-0000-5602
+Enter account password: Account created. Number: 5022-0000-0000-5603
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5604
+Enter account password: Account created. Number: 5022-0000-0000-5605
+Enter account password: Account created. Number: 5022-0000-0000-5606
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5607
+Enter account password: Account created. Number: 5022-0000-0000-5608
+Enter account password: Account created. Number: 5022-0000-0000-5609
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5610
+Enter account password: Account created. Number: 5022-0000-0000-5611
+Enter account password: Account created. Number: 5022-0000-0000-5612
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5613
+Enter account password: Account created. Number: 5022-0000-0000-5614
+Enter account password: Account created. Number: 5022-0000-0000-5615
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5616
+Enter account password: Account created. Number: 5022-0000-0000-5617
+Enter account password: Account created. Number: 5022-0000-0000-5618
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5619
+Enter account password: Account created. Number: 5022-0000-0000-5620
+Enter account password: Account created. Number: 5022-0000-0000-5621
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5622
+Enter account password: Account created. Number: 5022-0000-0000-5623
+Enter account password: Account created. Number: 5022-0000-0000-5624
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5625
+Enter account password: Account created. Number: 5022-0000-0000-5626
+Enter account password: Account created. Number: 5022-0000-0000-5627
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5628
+Enter account password: Account created. Number: 5022-0000-0000-5629
+Enter account password: Account created. Number: 5022-0000-0000-5630
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5631
+Enter account password: Account created. Number: 5022-0000-0000-5632
+Enter account password: Account created. Number: 5022-0000-0000-5633
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5634
+Enter account password: Account created. Number: 5022-0000-0000-5635
+Enter account password: Account created. Number: 5022-0000-0000-5636
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5637
+Enter account password: Account created. Number: 5022-0000-0000-5638
+Enter account password: Account created. Number: 5022-0000-0000-5639
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5640
+Enter account password: Account created. Number: 5022-0000-0000-5641
+Enter account password: Account created. Number: 5022-0000-0000-5642
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5643
+Enter account password: Account created. Number: 5022-0000-0000-5644
+Enter account password: Account created. Number: 5022-0000-0000-5645
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5646
+Enter account password: Account created. Number: 5022-0000-0000-5647
+Enter account password: Account created. Number: 5022-0000-0000-5648
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5649
+Enter account password: Account created. Number: 5022-0000-0000-5650
+Enter account password: Account created. Number: 5022-0000-0000-5651
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5652
+Enter account password: Account created. Number: 5022-0000-0000-5653
+Enter account password: Account created. Number: 5022-0000-0000-5654
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5655
+Enter account password: Account created. Number: 5022-0000-0000-5656
+Enter account password: Account created. Number: 5022-0000-0000-5657
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5658
+Enter account password: Account created. Number: 5022-0000-0000-5659
+Enter account password: Account created. Number: 5022-0000-0000-5660
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5661
+Enter account password: Account created. Number: 5022-0000-0000-5662
+Enter account password: Account created. Number: 5022-0000-0000-5663
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5664
+Enter account password: Account created. Number: 5022-0000-0000-5665
+Enter account password: Account created. Number: 5022-0000-0000-5666
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5667
+Enter account password: Account created. Number: 5022-0000-0000-5668
+Enter account password: Account created. Number: 5022-0000-0000-5669
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5670
+Enter account password: Account created. Number: 5022-0000-0000-5671
+Enter account password: Account created. Number: 5022-0000-0000-5672
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5673
+Enter account password: Account created. Number: 5022-0000-0000-5674
+Enter account password: Account created. Number: 5022-0000-0000-5675
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5676
+Enter account password: Account created. Number: 5022-0000-0000-5677
+Enter account password: Account created. Number: 5022-0000-0000-5678
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5679
+Enter account password: Account created. Number: 5022-0000-0000-5680
+Enter account password: Account created. Number: 5022-0000-0000-5681
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5682
+Enter account password: Account created. Number: 5022-0000-0000-5683
+Enter account password: Account created. Number: 5022-0000-0000-5684
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5685
+Enter account password: Account created. Number: 5022-0000-0000-5686
+Enter account password: Account created. Number: 5022-0000-0000-5687
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5688
+Enter account password: Account created. Number: 5022-0000-0000-5689
+Enter account password: Account created. Number: 5022-0000-0000-5690
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5691
+Enter account password: Account created. Number: 5022-0000-0000-5692
+Enter account password: Account created. Number: 5022-0000-0000-5693
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5694
+Enter account password: Account created. Number: 5022-0000-0000-5695
+Enter account password: Account created. Number: 5022-0000-0000-5696
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5697
+Enter account password: Account created. Number: 5022-0000-0000-5698
+Enter account password: Account created. Number: 5022-0000-0000-5699
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5700
+Enter account password: Account created. Number: 5022-0000-0000-5701
+Enter account password: Account created. Number: 5022-0000-0000-5702
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5703
+Enter account password: Account created. Number: 5022-0000-0000-5704
+Enter account password: Account created. Number: 5022-0000-0000-5705
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5706
+Enter account password: Account created. Number: 5022-0000-0000-5707
+Enter account password: Account created. Number: 5022-0000-0000-5708
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5709
+Enter account password: Account created. Number: 5022-0000-0000-5710
+Enter account password: Account created. Number: 5022-0000-0000-5711
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5712
+Enter account password: Account created. Number: 5022-0000-0000-5713
+Enter account password: Account created. Number: 5022-0000-0000-5714
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5715
+Enter account password: Account created. Number: 5022-0000-0000-5716
+Enter account password: Account created. Number: 5022-0000-0000-5717
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5718
+Enter account password: Account created. Number: 5022-0000-0000-5719
+Enter account password: Account created. Number: 5022-0000-0000-5720
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5721
+Enter account password: Account created. Number: 5022-0000-0000-5722
+Enter account password: Account created. Number: 5022-0000-0000-5723
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5724
+Enter account password: Account created. Number: 5022-0000-0000-5725
+Enter account password: Account created. Number: 5022-0000-0000-5726
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5727
+Enter account password: Account created. Number: 5022-0000-0000-5728
+Enter account password: Account created. Number: 5022-0000-0000-5729
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5730
+Enter account password: Account created. Number: 5022-0000-0000-5731
+Enter account password: Account created. Number: 5022-0000-0000-5732
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5733
+Enter account password: Account created. Number: 5022-0000-0000-5734
+Enter account password: Account created. Number: 5022-0000-0000-5735
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5736
+Enter account password: Account created. Number: 5022-0000-0000-5737
+Enter account password: Account created. Number: 5022-0000-0000-5738
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5739
+Enter account password: Account created. Number: 5022-0000-0000-5740
+Enter account password: Account created. Number: 5022-0000-0000-5741
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5742
+Enter account password: Account created. Number: 5022-0000-0000-5743
+Enter account password: Account created. Number: 5022-0000-0000-5744
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5745
+Enter account password: Account created. Number: 5022-0000-0000-5746
+Enter account password: Account created. Number: 5022-0000-0000-5747
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5748
+Enter account password: Account created. Number: 5022-0000-0000-5749
+Enter account password: Account created. Number: 5022-0000-0000-5750
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5751
+Enter account password: Account created. Number: 5022-0000-0000-5752
+Enter account password: Account created. Number: 5022-0000-0000-5753
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5754
+Enter account password: Account created. Number: 5022-0000-0000-5755
+Enter account password: Account created. Number: 5022-0000-0000-5756
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5757
+Enter account password: Account created. Number: 5022-0000-0000-5758
+Enter account password: Account created. Number: 5022-0000-0000-5759
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5760
+Enter account password: Account created. Number: 5022-0000-0000-5761
+Enter account password: Account created. Number: 5022-0000-0000-5762
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5763
+Enter account password: Account created. Number: 5022-0000-0000-5764
+Enter account password: Account created. Number: 5022-0000-0000-5765
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5766
+Enter account password: Account created. Number: 5022-0000-0000-5767
+Enter account password: Account created. Number: 5022-0000-0000-5768
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5769
+Enter account password: Account created. Number: 5022-0000-0000-5770
+Enter account password: Account created. Number: 5022-0000-0000-5771
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5772
+Enter account password: Account created. Number: 5022-0000-0000-5773
+Enter account password: Account created. Number: 5022-0000-0000-5774
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5775
+Enter account password: Account created. Number: 5022-0000-0000-5776
+Enter account password: Account created. Number: 5022-0000-0000-5777
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5778
+Enter account password: Account created. Number: 5022-0000-0000-5779
+Enter account password: Account created. Number: 5022-0000-0000-5780
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5781
+Enter account password: Account created. Number: 5022-0000-0000-5782
+Enter account password: Account created. Number: 5022-0000-0000-5783
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5784
+Enter account password: Account created. Number: 5022-0000-0000-5785
+Enter account password: Account created. Number: 5022-0000-0000-5786
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5787
+Enter account password: Account created. Number: 5022-0000-0000-5788
+Enter account password: Account created. Number: 5022-0000-0000-5789
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5790
+Enter account password: Account created. Number: 5022-0000-0000-5791
+Enter account password: Account created. Number: 5022-0000-0000-5792
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5793
+Enter account password: Account created. Number: 5022-0000-0000-5794
+Enter account password: Account created. Number: 5022-0000-0000-5795
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5796
+Enter account password: Account created. Number: 5022-0000-0000-5797
+Enter account password: Account created. Number: 5022-0000-0000-5798
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5799
+Enter account password: Account created. Number: 5022-0000-0000-5800
+Enter account password: Account created. Number: 5022-0000-0000-5801
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5802
+Enter account password: Account created. Number: 5022-0000-0000-5803
+Enter account password: Account created. Number: 5022-0000-0000-5804
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5805
+Enter account password: Account created. Number: 5022-0000-0000-5806
+Enter account password: Account created. Number: 5022-0000-0000-5807
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5808
+Enter account password: Account created. Number: 5022-0000-0000-5809
+Enter account password: Account created. Number: 5022-0000-0000-5810
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5811
+Enter account password: Account created. Number: 5022-0000-0000-5812
+Enter account password: Account created. Number: 5022-0000-0000-5813
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5814
+Enter account password: Account created. Number: 5022-0000-0000-5815
+Enter account password: Account created. Number: 5022-0000-0000-5816
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5817
+Enter account password: Account created. Number: 5022-0000-0000-5818
+Enter account password: Account created. Number: 5022-0000-0000-5819
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5820
+Enter account password: Account created. Number: 5022-0000-0000-5821
+Enter account password: Account created. Number: 5022-0000-0000-5822
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5823
+Enter account password: Account created. Number: 5022-0000-0000-5824
+Enter account password: Account created. Number: 5022-0000-0000-5825
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5826
+Enter account password: Account created. Number: 5022-0000-0000-5827
+Enter account password: Account created. Number: 5022-0000-0000-5828
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5829
+Enter account password: Account created. Number: 5022-0000-0000-5830
+Enter account password: Account created. Number: 5022-0000-0000-5831
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5832
+Enter account password: Account created. Number: 5022-0000-0000-5833
+Enter account password: Account created. Number: 5022-0000-0000-5834
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5835
+Enter account password: Account created. Number: 5022-0000-0000-5836
+Enter account password: Account created. Number: 5022-0000-0000-5837
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5838
+Enter account password: Account created. Number: 5022-0000-0000-5839
+Enter account password: Account created. Number: 5022-0000-0000-5840
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5841
+Enter account password: Account created. Number: 5022-0000-0000-5842
+Enter account password: Account created. Number: 5022-0000-0000-5843
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5844
+Enter account password: Account created. Number: 5022-0000-0000-5845
+Enter account password: Account created. Number: 5022-0000-0000-5846
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5847
+Enter account password: Account created. Number: 5022-0000-0000-5848
+Enter account password: Account created. Number: 5022-0000-0000-5849
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5850
+Enter account password: Account created. Number: 5022-0000-0000-5851
+Enter account password: Account created. Number: 5022-0000-0000-5852
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5853
+Enter account password: Account created. Number: 5022-0000-0000-5854
+Enter account password: Account created. Number: 5022-0000-0000-5855
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5856
+Enter account password: Account created. Number: 5022-0000-0000-5857
+Enter account password: Account created. Number: 5022-0000-0000-5858
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5859
+Enter account password: Account created. Number: 5022-0000-0000-5860
+Enter account password: Account created. Number: 5022-0000-0000-5861
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5862
+Enter account password: Account created. Number: 5022-0000-0000-5863
+Enter account password: Account created. Number: 5022-0000-0000-5864
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5865
+Enter account password: Account created. Number: 5022-0000-0000-5866
+Enter account password: Account created. Number: 5022-0000-0000-5867
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5868
+Enter account password: Account created. Number: 5022-0000-0000-5869
+Enter account password: Account created. Number: 5022-0000-0000-5870
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5871
+Enter account password: Account created. Number: 5022-0000-0000-5872
+Enter account password: Account created. Number: 5022-0000-0000-5873
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5874
+Enter account password: Account created. Number: 5022-0000-0000-5875
+Enter account password: Account created. Number: 5022-0000-0000-5876
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5877
+Enter account password: Account created. Number: 5022-0000-0000-5878
+Enter account password: Account created. Number: 5022-0000-0000-5879
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5880
+Enter account password: Account created. Number: 5022-0000-0000-5881
+Enter account password: Account created. Number: 5022-0000-0000-5882
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5883
+Enter account password: Account created. Number: 5022-0000-0000-5884
+Enter account password: Account created. Number: 5022-0000-0000-5885
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5886
+Enter account password: Account created. Number: 5022-0000-0000-5887
+Enter account password: Account created. Number: 5022-0000-0000-5888
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5889
+Enter account password: Account created. Number: 5022-0000-0000-5890
+Enter account password: Account created. Number: 5022-0000-0000-5891
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5892
+Enter account password: Account created. Number: 5022-0000-0000-5893
+Enter account password: Account created. Number: 5022-0000-0000-5894
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5895
+Enter account password: Account created. Number: 5022-0000-0000-5896
+Enter account password: Account created. Number: 5022-0000-0000-5897
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5898
+Enter account password: Account created. Number: 5022-0000-0000-5899
+Enter account password: Account created. Number: 5022-0000-0000-5900
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5901
+Enter account password: Account created. Number: 5022-0000-0000-5902
+Enter account password: Account created. Number: 5022-0000-0000-5903
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5904
+Enter account password: Account created. Number: 5022-0000-0000-5905
+Enter account password: Account created. Number: 5022-0000-0000-5906
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5907
+Enter account password: Account created. Number: 5022-0000-0000-5908
+Enter account password: Account created. Number: 5022-0000-0000-5909
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5910
+Enter account password: Account created. Number: 5022-0000-0000-5911
+Enter account password: Account created. Number: 5022-0000-0000-5912
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5913
+Enter account password: Account created. Number: 5022-0000-0000-5914
+Enter account password: Account created. Number: 5022-0000-0000-5915
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5916
+Enter account password: Account created. Number: 5022-0000-0000-5917
+Enter account password: Account created. Number: 5022-0000-0000-5918
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5919
+Enter account password: Account created. Number: 5022-0000-0000-5920
+Enter account password: Account created. Number: 5022-0000-0000-5921
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5922
+Enter account password: Account created. Number: 5022-0000-0000-5923
+Enter account password: Account created. Number: 5022-0000-0000-5924
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5925
+Enter account password: Account created. Number: 5022-0000-0000-5926
+Enter account password: Account created. Number: 5022-0000-0000-5927
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5928
+Enter account password: Account created. Number: 5022-0000-0000-5929
+Enter account password: Account created. Number: 5022-0000-0000-5930
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5931
+Enter account password: Account created. Number: 5022-0000-0000-5932
+Enter account password: Account created. Number: 5022-0000-0000-5933
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5934
+Enter account password: Account created. Number: 5022-0000-0000-5935
+Enter account password: Account created. Number: 5022-0000-0000-5936
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5937
+Enter account password: Account created. Number: 5022-0000-0000-5938
+Enter account password: Account created. Number: 5022-0000-0000-5939
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5940
+Enter account password: Account created. Number: 5022-0000-0000-5941
+Enter account password: Account created. Number: 5022-0000-0000-5942
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5943
+Enter account password: Account created. Number: 5022-0000-0000-5944
+Enter account password: Account created. Number: 5022-0000-0000-5945
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5946
+Enter account password: Account created. Number: 5022-0000-0000-5947
+Enter account password: Account created. Number: 5022-0000-0000-5948
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5949
+Enter account password: Account created. Number: 5022-0000-0000-5950
+Enter account password: Account created. Number: 5022-0000-0000-5951
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5952
+Enter account password: Account created. Number: 5022-0000-0000-5953
+Enter account password: Account created. Number: 5022-0000-0000-5954
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5955
+Enter account password: Account created. Number: 5022-0000-0000-5956
+Enter account password: Account created. Number: 5022-0000-0000-5957
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5958
+Enter account password: Account created. Number: 5022-0000-0000-5959
+Enter account password: Account created. Number: 5022-0000-0000-5960
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5961
+Enter account password: Account created. Number: 5022-0000-0000-5962
+Enter account password: Account created. Number: 5022-0000-0000-5963
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5964
+Enter account password: Account created. Number: 5022-0000-0000-5965
+Enter account password: Account created. Number: 5022-0000-0000-5966
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5967
+Enter account password: Account created. Number: 5022-0000-0000-5968
+Enter account password: Account created. Number: 5022-0000-0000-5969
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5970
+Enter account password: Account created. Number: 5022-0000-0000-5971
+Enter account password: Account created. Number: 5022-0000-0000-5972
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5973
+Enter account password: Account created. Number: 5022-0000-0000-5974
+Enter account password: Account created. Number: 5022-0000-0000-5975
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5976
+Enter account password: Account created. Number: 5022-0000-0000-5977
+Enter account password: Account created. Number: 5022-0000-0000-5978
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5979
+Enter account password: Account created. Number: 5022-0000-0000-5980
+Enter account password: Account created. Number: 5022-0000-0000-5981
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5982
+Enter account password: Account created. Number: 5022-0000-0000-5983
+Enter account password: Account created. Number: 5022-0000-0000-5984
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5985
+Enter account password: Account created. Number: 5022-0000-0000-5986
+Enter account password: Account created. Number: 5022-0000-0000-5987
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5988
+Enter account password: Account created. Number: 5022-0000-0000-5989
+Enter account password: Account created. Number: 5022-0000-0000-5990
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5991
+Enter account password: Account created. Number: 5022-0000-0000-5992
+Enter account password: Account created. Number: 5022-0000-0000-5993
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5994
+Enter account password: Account created. Number: 5022-0000-0000-5995
+Enter account password: Account created. Number: 5022-0000-0000-5996
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-5997
+Enter account password: Account created. Number: 5022-0000-0000-5998
+Enter account password: Account created. Number: 5022-0000-0000-5999
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6000
+Enter account password: Account created. Number: 5022-0000-0000-6001
+Enter account password: Account created. Number: 5022-0000-0000-6002
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6003
+Enter account password: Account created. Number: 5022-0000-0000-6004
+Enter account password: Account created. Number: 5022-0000-0000-6005
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6006
+Enter account password: Account created. Number: 5022-0000-0000-6007
+Enter account password: Account created. Number: 5022-0000-0000-6008
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6009
+Enter account password: Account created. Number: 5022-0000-0000-6010
+Enter account password: Account created. Number: 5022-0000-0000-6011
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6012
+Enter account password: Account created. Number: 5022-0000-0000-6013
+Enter account password: Account created. Number: 5022-0000-0000-6014
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6015
+Enter account password: Account created. Number: 5022-0000-0000-6016
+Enter account password: Account created. Number: 5022-0000-0000-6017
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6018
+Enter account password: Account created. Number: 5022-0000-0000-6019
+Enter account password: Account created. Number: 5022-0000-0000-6020
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6021
+Enter account password: Account created. Number: 5022-0000-0000-6022
+Enter account password: Account created. Number: 5022-0000-0000-6023
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6024
+Enter account password: Account created. Number: 5022-0000-0000-6025
+Enter account password: Account created. Number: 5022-0000-0000-6026
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6027
+Enter account password: Account created. Number: 5022-0000-0000-6028
+Enter account password: Account created. Number: 5022-0000-0000-6029
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6030
+Enter account password: Account created. Number: 5022-0000-0000-6031
+Enter account password: Account created. Number: 5022-0000-0000-6032
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6033
+Enter account password: Account created. Number: 5022-0000-0000-6034
+Enter account password: Account created. Number: 5022-0000-0000-6035
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6036
+Enter account password: Account created. Number: 5022-0000-0000-6037
+Enter account password: Account created. Number: 5022-0000-0000-6038
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6039
+Enter account password: Account created. Number: 5022-0000-0000-6040
+Enter account password: Account created. Number: 5022-0000-0000-6041
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6042
+Enter account password: Account created. Number: 5022-0000-0000-6043
+Enter account password: Account created. Number: 5022-0000-0000-6044
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6045
+Enter account password: Account created. Number: 5022-0000-0000-6046
+Enter account password: Account created. Number: 5022-0000-0000-6047
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6048
+Enter account password: Account created. Number: 5022-0000-0000-6049
+Enter account password: Account created. Number: 5022-0000-0000-6050
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6051
+Enter account password: Account created. Number: 5022-0000-0000-6052
+Enter account password: Account created. Number: 5022-0000-0000-6053
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6054
+Enter account password: Account created. Number: 5022-0000-0000-6055
+Enter account password: Account created. Number: 5022-0000-0000-6056
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6057
+Enter account password: Account created. Number: 5022-0000-0000-6058
+Enter account password: Account created. Number: 5022-0000-0000-6059
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6060
+Enter account password: Account created. Number: 5022-0000-0000-6061
+Enter account password: Account created. Number: 5022-0000-0000-6062
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6063
+Enter account password: Account created. Number: 5022-0000-0000-6064
+Enter account password: Account created. Number: 5022-0000-0000-6065
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6066
+Enter account password: Account created. Number: 5022-0000-0000-6067
+Enter account password: Account created. Number: 5022-0000-0000-6068
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6069
+Enter account password: Account created. Number: 5022-0000-0000-6070
+Enter account password: Account created. Number: 5022-0000-0000-6071
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6072
+Enter account password: Account created. Number: 5022-0000-0000-6073
+Enter account password: Account created. Number: 5022-0000-0000-6074
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6075
+Enter account password: Account created. Number: 5022-0000-0000-6076
+Enter account password: Account created. Number: 5022-0000-0000-6077
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6078
+Enter account password: Account created. Number: 5022-0000-0000-6079
+Enter account password: Account created. Number: 5022-0000-0000-6080
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6081
+Enter account password: Account created. Number: 5022-0000-0000-6082
+Enter account password: Account created. Number: 5022-0000-0000-6083
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6084
+Enter account password: Account created. Number: 5022-0000-0000-6085
+Enter account password: Account created. Number: 5022-0000-0000-6086
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6087
+Enter account password: Account created. Number: 5022-0000-0000-6088
+Enter account password: Account created. Number: 5022-0000-0000-6089
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6090
+Enter account password: Account created. Number: 5022-0000-0000-6091
+Enter account password: Account created. Number: 5022-0000-0000-6092
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6093
+Enter account password: Account created. Number: 5022-0000-0000-6094
+Enter account password: Account created. Number: 5022-0000-0000-6095
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6096
+Enter account password: Account created. Number: 5022-0000-0000-6097
+Enter account password: Account created. Number: 5022-0000-0000-6098
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6099
+Enter account password: Account created. Number: 5022-0000-0000-6100
+Enter account password: Account created. Number: 5022-0000-0000-6101
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6102
+Enter account password: Account created. Number: 5022-0000-0000-6103
+Enter account password: Account created. Number: 5022-0000-0000-6104
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6105
+Enter account password: Account created. Number: 5022-0000-0000-6106
+Enter account password: Account created. Number: 5022-0000-0000-6107
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6108
+Enter account password: Account created. Number: 5022-0000-0000-6109
+Enter account password: Account created. Number: 5022-0000-0000-6110
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6111
+Enter account password: Account created. Number: 5022-0000-0000-6112
+Enter account password: Account created. Number: 5022-0000-0000-6113
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6114
+Enter account password: Account created. Number: 5022-0000-0000-6115
+Enter account password: Account created. Number: 5022-0000-0000-6116
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6117
+Enter account password: Account created. Number: 5022-0000-0000-6118
+Enter account password: Account created. Number: 5022-0000-0000-6119
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6120
+Enter account password: Account created. Number: 5022-0000-0000-6121
+Enter account password: Account created. Number: 5022-0000-0000-6122
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6123
+Enter account password: Account created. Number: 5022-0000-0000-6124
+Enter account password: Account created. Number: 5022-0000-0000-6125
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6126
+Enter account password: Account created. Number: 5022-0000-0000-6127
+Enter account password: Account created. Number: 5022-0000-0000-6128
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6129
+Enter account password: Account created. Number: 5022-0000-0000-6130
+Enter account password: Account created. Number: 5022-0000-0000-6131
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6132
+Enter account password: Account created. Number: 5022-0000-0000-6133
+Enter account password: Account created. Number: 5022-0000-0000-6134
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6135
+Enter account password: Account created. Number: 5022-0000-0000-6136
+Enter account password: Account created. Number: 5022-0000-0000-6137
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6138
+Enter account password: Account created. Number: 5022-0000-0000-6139
+Enter account password: Account created. Number: 5022-0000-0000-6140
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6141
+Enter account password: Account created. Number: 5022-0000-0000-6142
+Enter account password: Account created. Number: 5022-0000-0000-6143
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6144
+Enter account password: Account created. Number: 5022-0000-0000-6145
+Enter account password: Account created. Number: 5022-0000-0000-6146
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6147
+Enter account password: Account created. Number: 5022-0000-0000-6148
+Enter account password: Account created. Number: 5022-0000-0000-6149
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6150
+Enter account password: Account created. Number: 5022-0000-0000-6151
+Enter account password: Account created. Number: 5022-0000-0000-6152
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6153
+Enter account password: Account created. Number: 5022-0000-0000-6154
+Enter account password: Account created. Number: 5022-0000-0000-6155
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6156
+Enter account password: Account created. Number: 5022-0000-0000-6157
+Enter account password: Account created. Number: 5022-0000-0000-6158
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6159
+Enter account password: Account created. Number: 5022-0000-0000-6160
+Enter account password: Account created. Number: 5022-0000-0000-6161
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6162
+Enter account password: Account created. Number: 5022-0000-0000-6163
+Enter account password: Account created. Number: 5022-0000-0000-6164
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6165
+Enter account password: Account created. Number: 5022-0000-0000-6166
+Enter account password: Account created. Number: 5022-0000-0000-6167
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6168
+Enter account password: Account created. Number: 5022-0000-0000-6169
+Enter account password: Account created. Number: 5022-0000-0000-6170
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6171
+Enter account password: Account created. Number: 5022-0000-0000-6172
+Enter account password: Account created. Number: 5022-0000-0000-6173
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6174
+Enter account password: Account created. Number: 5022-0000-0000-6175
+Enter account password: Account created. Number: 5022-0000-0000-6176
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6177
+Enter account password: Account created. Number: 5022-0000-0000-6178
+Enter account password: Account created. Number: 5022-0000-0000-6179
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6180
+Enter account password: Account created. Number: 5022-0000-0000-6181
+Enter account password: Account created. Number: 5022-0000-0000-6182
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6183
+Enter account password: Account created. Number: 5022-0000-0000-6184
+Enter account password: Account created. Number: 5022-0000-0000-6185
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6186
+Enter account password: Account created. Number: 5022-0000-0000-6187
+Enter account password: Account created. Number: 5022-0000-0000-6188
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6189
+Enter account password: Account created. Number: 5022-0000-0000-6190
+Enter account password: Account created. Number: 5022-0000-0000-6191
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6192
+Enter account password: Account created. Number: 5022-0000-0000-6193
+Enter account password: Account created. Number: 5022-0000-0000-6194
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6195
+Enter account password: Account created. Number: 5022-0000-0000-6196
+Enter account password: Account created. Number: 5022-0000-0000-6197
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6198
+Enter account password: Account created. Number: 5022-0000-0000-6199
+Enter account password: Account created. Number: 5022-0000-0000-6200
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6201
+Enter account password: Account created. Number: 5022-0000-0000-6202
+Enter account password: Account created. Number: 5022-0000-0000-6203
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6204
+Enter account password: Account created. Number: 5022-0000-0000-6205
+Enter account password: Account created. Number: 5022-0000-0000-6206
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6207
+Enter account password: Account created. Number: 5022-0000-0000-6208
+Enter account password: Account created. Number: 5022-0000-0000-6209
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6210
+Enter account password: Account created. Number: 5022-0000-0000-6211
+Enter account password: Account created. Number: 5022-0000-0000-6212
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6213
+Enter account password: Account created. Number: 5022-0000-0000-6214
+Enter account password: Account created. Number: 5022-0000-0000-6215
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6216
+Enter account password: Account created. Number: 5022-0000-0000-6217
+Enter account password: Account created. Number: 5022-0000-0000-6218
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6219
+Enter account password: Account created. Number: 5022-0000-0000-6220
+Enter account password: Account created. Number: 5022-0000-0000-6221
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6222
+Enter account password: Account created. Number: 5022-0000-0000-6223
+Enter account password: Account created. Number: 5022-0000-0000-6224
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6225
+Enter account password: Account created. Number: 5022-0000-0000-6226
+Enter account password: Account created. Number: 5022-0000-0000-6227
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6228
+Enter account password: Account created. Number: 5022-0000-0000-6229
+Enter account password: Account created. Number: 5022-0000-0000-6230
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6231
+Enter account password: Account created. Number: 5022-0000-0000-6232
+Enter account password: Account created. Number: 5022-0000-0000-6233
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6234
+Enter account password: Account created. Number: 5022-0000-0000-6235
+Enter account password: Account created. Number: 5022-0000-0000-6236
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6237
+Enter account password: Account created. Number: 5022-0000-0000-6238
+Enter account password: Account created. Number: 5022-0000-0000-6239
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6240
+Enter account password: Account created. Number: 5022-0000-0000-6241
+Enter account password: Account created. Number: 5022-0000-0000-6242
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6243
+Enter account password: Account created. Number: 5022-0000-0000-6244
+Enter account password: Account created. Number: 5022-0000-0000-6245
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6246
+Enter account password: Account created. Number: 5022-0000-0000-6247
+Enter account password: Account created. Number: 5022-0000-0000-6248
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6249
+Enter account password: Account created. Number: 5022-0000-0000-6250
+Enter account password: Account created. Number: 5022-0000-0000-6251
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6252
+Enter account password: Account created. Number: 5022-0000-0000-6253
+Enter account password: Account created. Number: 5022-0000-0000-6254
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6255
+Enter account password: Account created. Number: 5022-0000-0000-6256
+Enter account password: Account created. Number: 5022-0000-0000-6257
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6258
+Enter account password: Account created. Number: 5022-0000-0000-6259
+Enter account password: Account created. Number: 5022-0000-0000-6260
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6261
+Enter account password: Account created. Number: 5022-0000-0000-6262
+Enter account password: Account created. Number: 5022-0000-0000-6263
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6264
+Enter account password: Account created. Number: 5022-0000-0000-6265
+Enter account password: Account created. Number: 5022-0000-0000-6266
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6267
+Enter account password: Account created. Number: 5022-0000-0000-6268
+Enter account password: Account created. Number: 5022-0000-0000-6269
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6270
+Enter account password: Account created. Number: 5022-0000-0000-6271
+Enter account password: Account created. Number: 5022-0000-0000-6272
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6273
+Enter account password: Account created. Number: 5022-0000-0000-6274
+Enter account password: Account created. Number: 5022-0000-0000-6275
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6276
+Enter account password: Account created. Number: 5022-0000-0000-6277
+Enter account password: Account created. Number: 5022-0000-0000-6278
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6279
+Enter account password: Account created. Number: 5022-0000-0000-6280
+Enter account password: Account created. Number: 5022-0000-0000-6281
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6282
+Enter account password: Account created. Number: 5022-0000-0000-6283
+Enter account password: Account created. Number: 5022-0000-0000-6284
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6285
+Enter account password: Account created. Number: 5022-0000-0000-6286
+Enter account password: Account created. Number: 5022-0000-0000-6287
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6288
+Enter account password: Account created. Number: 5022-0000-0000-6289
+Enter account password: Account created. Number: 5022-0000-0000-6290
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6291
+Enter account password: Account created. Number: 5022-0000-0000-6292
+Enter account password: Account created. Number: 5022-0000-0000-6293
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6294
+Enter account password: Account created. Number: 5022-0000-0000-6295
+Enter account password: Account created. Number: 5022-0000-0000-6296
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6297
+Enter account password: Account created. Number: 5022-0000-0000-6298
+Enter account password: Account created. Number: 5022-0000-0000-6299
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6300
+Enter account password: Account created. Number: 5022-0000-0000-6301
+Enter account password: Account created. Number: 5022-0000-0000-6302
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6303
+Enter account password: Account created. Number: 5022-0000-0000-6304
+Enter account password: Account created. Number: 5022-0000-0000-6305
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6306
+Enter account password: Account created. Number: 5022-0000-0000-6307
+Enter account password: Account created. Number: 5022-0000-0000-6308
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6309
+Enter account password: Account created. Number: 5022-0000-0000-6310
+Enter account password: Account created. Number: 5022-0000-0000-6311
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6312
+Enter account password: Account created. Number: 5022-0000-0000-6313
+Enter account password: Account created. Number: 5022-0000-0000-6314
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6315
+Enter account password: Account created. Number: 5022-0000-0000-6316
+Enter account password: Account created. Number: 5022-0000-0000-6317
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6318
+Enter account password: Account created. Number: 5022-0000-0000-6319
+Enter account password: Account created. Number: 5022-0000-0000-6320
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6321
+Enter account password: Account created. Number: 5022-0000-0000-6322
+Enter account password: Account created. Number: 5022-0000-0000-6323
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6324
+Enter account password: Account created. Number: 5022-0000-0000-6325
+Enter account password: Account created. Number: 5022-0000-0000-6326
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6327
+Enter account password: Account created. Number: 5022-0000-0000-6328
+Enter account password: Account created. Number: 5022-0000-0000-6329
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6330
+Enter account password: Account created. Number: 5022-0000-0000-6331
+Enter account password: Account created. Number: 5022-0000-0000-6332
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6333
+Enter account password: Account created. Number: 5022-0000-0000-6334
+Enter account password: Account created. Number: 5022-0000-0000-6335
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6336
+Enter account password: Account created. Number: 5022-0000-0000-6337
+Enter account password: Account created. Number: 5022-0000-0000-6338
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6339
+Enter account password: Account created. Number: 5022-0000-0000-6340
+Enter account password: Account created. Number: 5022-0000-0000-6341
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6342
+Enter account password: Account created. Number: 5022-0000-0000-6343
+Enter account password: Account created. Number: 5022-0000-0000-6344
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6345
+Enter account password: Account created. Number: 5022-0000-0000-6346
+Enter account password: Account created. Number: 5022-0000-0000-6347
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6348
+Enter account password: Account created. Number: 5022-0000-0000-6349
+Enter account password: Account created. Number: 5022-0000-0000-6350
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6351
+Enter account password: Account created. Number: 5022-0000-0000-6352
+Enter account password: Account created. Number: 5022-0000-0000-6353
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6354
+Enter account password: Account created. Number: 5022-0000-0000-6355
+Enter account password: Account created. Number: 5022-0000-0000-6356
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6357
+Enter account password: Account created. Number: 5022-0000-0000-6358
+Enter account password: Account created. Number: 5022-0000-0000-6359
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6360
+Enter account password: Account created. Number: 5022-0000-0000-6361
+Enter account password: Account created. Number: 5022-0000-0000-6362
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6363
+Enter account password: Account created. Number: 5022-0000-0000-6364
+Enter account password: Account created. Number: 5022-0000-0000-6365
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6366
+Enter account password: Account created. Number: 5022-0000-0000-6367
+Enter account password: Account created. Number: 5022-0000-0000-6368
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6369
+Enter account password: Account created. Number: 5022-0000-0000-6370
+Enter account password: Account created. Number: 5022-0000-0000-6371
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6372
+Enter account password: Account created. Number: 5022-0000-0000-6373
+Enter account password: Account created. Number: 5022-0000-0000-6374
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6375
+Enter account password: Account created. Number: 5022-0000-0000-6376
+Enter account password: Account created. Number: 5022-0000-0000-6377
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6378
+Enter account password: Account created. Number: 5022-0000-0000-6379
+Enter account password: Account created. Number: 5022-0000-0000-6380
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6381
+Enter account password: Account created. Number: 5022-0000-0000-6382
+Enter account password: Account created. Number: 5022-0000-0000-6383
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6384
+Enter account password: Account created. Number: 5022-0000-0000-6385
+Enter account password: Account created. Number: 5022-0000-0000-6386
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6387
+Enter account password: Account created. Number: 5022-0000-0000-6388
+Enter account password: Account created. Number: 5022-0000-0000-6389
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6390
+Enter account password: Account created. Number: 5022-0000-0000-6391
+Enter account password: Account created. Number: 5022-0000-0000-6392
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6393
+Enter account password: Account created. Number: 5022-0000-0000-6394
+Enter account password: Account created. Number: 5022-0000-0000-6395
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6396
+Enter account password: Account created. Number: 5022-0000-0000-6397
+Enter account password: Account created. Number: 5022-0000-0000-6398
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6399
+Enter account password: Account created. Number: 5022-0000-0000-6400
+Enter account password: Account created. Number: 5022-0000-0000-6401
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6402
+Enter account password: Account created. Number: 5022-0000-0000-6403
+Enter account password: Account created. Number: 5022-0000-0000-6404
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6405
+Enter account password: Account created. Number: 5022-0000-0000-6406
+Enter account password: Account created. Number: 5022-0000-0000-6407
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6408
+Enter account password: Account created. Number: 5022-0000-0000-6409
+Enter account password: Account created. Number: 5022-0000-0000-6410
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6411
+Enter account password: Account created. Number: 5022-0000-0000-6412
+Enter account password: Account created. Number: 5022-0000-0000-6413
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6414
+Enter account password: Account created. Number: 5022-0000-0000-6415
+Enter account password: Account created. Number: 5022-0000-0000-6416
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6417
+Enter account password: Account created. Number: 5022-0000-0000-6418
+Enter account password: Account created. Number: 5022-0000-0000-6419
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6420
+Enter account password: Account created. Number: 5022-0000-0000-6421
+Enter account password: Account created. Number: 5022-0000-0000-6422
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6423
+Enter account password: Account created. Number: 5022-0000-0000-6424
+Enter account password: Account created. Number: 5022-0000-0000-6425
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6426
+Enter account password: Account created. Number: 5022-0000-0000-6427
+Enter account password: Account created. Number: 5022-0000-0000-6428
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6429
+Enter account password: Account created. Number: 5022-0000-0000-6430
+Enter account password: Account created. Number: 5022-0000-0000-6431
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6432
+Enter account password: Account created. Number: 5022-0000-0000-6433
+Enter account password: Account created. Number: 5022-0000-0000-6434
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6435
+Enter account password: Account created. Number: 5022-0000-0000-6436
+Enter account password: Account created. Number: 5022-0000-0000-6437
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6438
+Enter account password: Account created. Number: 5022-0000-0000-6439
+Enter account password: Account created. Number: 5022-0000-0000-6440
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6441
+Enter account password: Account created. Number: 5022-0000-0000-6442
+Enter account password: Account created. Number: 5022-0000-0000-6443
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6444
+Enter account password: Account created. Number: 5022-0000-0000-6445
+Enter account password: Account created. Number: 5022-0000-0000-6446
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6447
+Enter account password: Account created. Number: 5022-0000-0000-6448
+Enter account password: Account created. Number: 5022-0000-0000-6449
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6450
+Enter account password: Account created. Number: 5022-0000-0000-6451
+Enter account password: Account created. Number: 5022-0000-0000-6452
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6453
+Enter account password: Account created. Number: 5022-0000-0000-6454
+Enter account password: Account created. Number: 5022-0000-0000-6455
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6456
+Enter account password: Account created. Number: 5022-0000-0000-6457
+Enter account password: Account created. Number: 5022-0000-0000-6458
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6459
+Enter account password: Account created. Number: 5022-0000-0000-6460
+Enter account password: Account created. Number: 5022-0000-0000-6461
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6462
+Enter account password: Account created. Number: 5022-0000-0000-6463
+Enter account password: Account created. Number: 5022-0000-0000-6464
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6465
+Enter account password: Account created. Number: 5022-0000-0000-6466
+Enter account password: Account created. Number: 5022-0000-0000-6467
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6468
+Enter account password: Account created. Number: 5022-0000-0000-6469
+Enter account password: Account created. Number: 5022-0000-0000-6470
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6471
+Enter account password: Account created. Number: 5022-0000-0000-6472
+Enter account password: Account created. Number: 5022-0000-0000-6473
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6474
+Enter account password: Account created. Number: 5022-0000-0000-6475
+Enter account password: Account created. Number: 5022-0000-0000-6476
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6477
+Enter account password: Account created. Number: 5022-0000-0000-6478
+Enter account password: Account created. Number: 5022-0000-0000-6479
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6480
+Enter account password: Account created. Number: 5022-0000-0000-6481
+Enter account password: Account created. Number: 5022-0000-0000-6482
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6483
+Enter account password: Account created. Number: 5022-0000-0000-6484
+Enter account password: Account created. Number: 5022-0000-0000-6485
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6486
+Enter account password: Account created. Number: 5022-0000-0000-6487
+Enter account password: Account created. Number: 5022-0000-0000-6488
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6489
+Enter account password: Account created. Number: 5022-0000-0000-6490
+Enter account password: Account created. Number: 5022-0000-0000-6491
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6492
+Enter account password: Account created. Number: 5022-0000-0000-6493
+Enter account password: Account created. Number: 5022-0000-0000-6494
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6495
+Enter account password: Account created. Number: 5022-0000-0000-6496
+Enter account password: Account created. Number: 5022-0000-0000-6497
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6498
+Enter account password: Account created. Number: 5022-0000-0000-6499
+Enter account password: Account created. Number: 5022-0000-0000-6500
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6501
+Enter account password: Account created. Number: 5022-0000-0000-6502
+Enter account password: Account created. Number: 5022-0000-0000-6503
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6504
+Enter account password: Account created. Number: 5022-0000-0000-6505
+Enter account password: Account created. Number: 5022-0000-0000-6506
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6507
+Enter account password: Account created. Number: 5022-0000-0000-6508
+Enter account password: Account created. Number: 5022-0000-0000-6509
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6510
+Enter account password: Account created. Number: 5022-0000-0000-6511
+Enter account password: Account created. Number: 5022-0000-0000-6512
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6513
+Enter account password: Account created. Number: 5022-0000-0000-6514
+Enter account password: Account created. Number: 5022-0000-0000-6515
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6516
+Enter account password: Account created. Number: 5022-0000-0000-6517
+Enter account password: Account created. Number: 5022-0000-0000-6518
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6519
+Enter account password: Account created. Number: 5022-0000-0000-6520
+Enter account password: Account created. Number: 5022-0000-0000-6521
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6522
+Enter account password: Account created. Number: 5022-0000-0000-6523
+Enter account password: Account created. Number: 5022-0000-0000-6524
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6525
+Enter account password: Account created. Number: 5022-0000-0000-6526
+Enter account password: Account created. Number: 5022-0000-0000-6527
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6528
+Enter account password: Account created. Number: 5022-0000-0000-6529
+Enter account password: Account created. Number: 5022-0000-0000-6530
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6531
+Enter account password: Account created. Number: 5022-0000-0000-6532
+Enter account password: Account created. Number: 5022-0000-0000-6533
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6534
+Enter account password: Account created. Number: 5022-0000-0000-6535
+Enter account password: Account created. Number: 5022-0000-0000-6536
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6537
+Enter account password: Account created. Number: 5022-0000-0000-6538
+Enter account password: Account created. Number: 5022-0000-0000-6539
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6540
+Enter account password: Account created. Number: 5022-0000-0000-6541
+Enter account password: Account created. Number: 5022-0000-0000-6542
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6543
+Enter account password: Account created. Number: 5022-0000-0000-6544
+Enter account password: Account created. Number: 5022-0000-0000-6545
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6546
+Enter account password: Account created. Number: 5022-0000-0000-6547
+Enter account password: Account created. Number: 5022-0000-0000-6548
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6549
+Enter account password: Account created. Number: 5022-0000-0000-6550
+Enter account password: Account created. Number: 5022-0000-0000-6551
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6552
+Enter account password: Account created. Number: 5022-0000-0000-6553
+Enter account password: Account created. Number: 5022-0000-0000-6554
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6555
+Enter account password: Account created. Number: 5022-0000-0000-6556
+Enter account password: Account created. Number: 5022-0000-0000-6557
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6558
+Enter account password: Account created. Number: 5022-0000-0000-6559
+Enter account password: Account created. Number: 5022-0000-0000-6560
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6561
+Enter account password: Account created. Number: 5022-0000-0000-6562
+Enter account password: Account created. Number: 5022-0000-0000-6563
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6564
+Enter account password: Account created. Number: 5022-0000-0000-6565
+Enter account password: Account created. Number: 5022-0000-0000-6566
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6567
+Enter account password: Account created. Number: 5022-0000-0000-6568
+Enter account password: Account created. Number: 5022-0000-0000-6569
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6570
+Enter account password: Account created. Number: 5022-0000-0000-6571
+Enter account password: Account created. Number: 5022-0000-0000-6572
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6573
+Enter account password: Account created. Number: 5022-0000-0000-6574
+Enter account password: Account created. Number: 5022-0000-0000-6575
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6576
+Enter account password: Account created. Number: 5022-0000-0000-6577
+Enter account password: Account created. Number: 5022-0000-0000-6578
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6579
+Enter account password: Account created. Number: 5022-0000-0000-6580
+Enter account password: Account created. Number: 5022-0000-0000-6581
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6582
+Enter account password: Account created. Number: 5022-0000-0000-6583
+Enter account password: Account created. Number: 5022-0000-0000-6584
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6585
+Enter account password: Account created. Number: 5022-0000-0000-6586
+Enter account password: Account created. Number: 5022-0000-0000-6587
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6588
+Enter account password: Account created. Number: 5022-0000-0000-6589
+Enter account password: Account created. Number: 5022-0000-0000-6590
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6591
+Enter account password: Account created. Number: 5022-0000-0000-6592
+Enter account password: Account created. Number: 5022-0000-0000-6593
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6594
+Enter account password: Account created. Number: 5022-0000-0000-6595
+Enter account password: Account created. Number: 5022-0000-0000-6596
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6597
+Enter account password: Account created. Number: 5022-0000-0000-6598
+Enter account password: Account created. Number: 5022-0000-0000-6599
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6600
+Enter account password: Account created. Number: 5022-0000-0000-6601
+Enter account password: Account created. Number: 5022-0000-0000-6602
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6603
+Enter account password: Account created. Number: 5022-0000-0000-6604
+Enter account password: Account created. Number: 5022-0000-0000-6605
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6606
+Enter account password: Account created. Number: 5022-0000-0000-6607
+Enter account password: Account created. Number: 5022-0000-0000-6608
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6609
+Enter account password: Account created. Number: 5022-0000-0000-6610
+Enter account password: Account created. Number: 5022-0000-0000-6611
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6612
+Enter account password: Account created. Number: 5022-0000-0000-6613
+Enter account password: Account created. Number: 5022-0000-0000-6614
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6615
+Enter account password: Account created. Number: 5022-0000-0000-6616
+Enter account password: Account created. Number: 5022-0000-0000-6617
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6618
+Enter account password: Account created. Number: 5022-0000-0000-6619
+Enter account password: Account created. Number: 5022-0000-0000-6620
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6621
+Enter account password: Account created. Number: 5022-0000-0000-6622
+Enter account password: Account created. Number: 5022-0000-0000-6623
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6624
+Enter account password: Account created. Number: 5022-0000-0000-6625
+Enter account password: Account created. Number: 5022-0000-0000-6626
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6627
+Enter account password: Account created. Number: 5022-0000-0000-6628
+Enter account password: Account created. Number: 5022-0000-0000-6629
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6630
+Enter account password: Account created. Number: 5022-0000-0000-6631
+Enter account password: Account created. Number: 5022-0000-0000-6632
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6633
+Enter account password: Account created. Number: 5022-0000-0000-6634
+Enter account password: Account created. Number: 5022-0000-0000-6635
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6636
+Enter account password: Account created. Number: 5022-0000-0000-6637
+Enter account password: Account created. Number: 5022-0000-0000-6638
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6639
+Enter account password: Account created. Number: 5022-0000-0000-6640
+Enter account password: Account created. Number: 5022-0000-0000-6641
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6642
+Enter account password: Account created. Number: 5022-0000-0000-6643
+Enter account password: Account created. Number: 5022-0000-0000-6644
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6645
+Enter account password: Account created. Number: 5022-0000-0000-6646
+Enter account password: Account created. Number: 5022-0000-0000-6647
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6648
+Enter account password: Account created. Number: 5022-0000-0000-6649
+Enter account password: Account created. Number: 5022-0000-0000-6650
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6651
+Enter account password: Account created. Number: 5022-0000-0000-6652
+Enter account password: Account created. Number: 5022-0000-0000-6653
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6654
+Enter account password: Account created. Number: 5022-0000-0000-6655
+Enter account password: Account created. Number: 5022-0000-0000-6656
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6657
+Enter account password: Account created. Number: 5022-0000-0000-6658
+Enter account password: Account created. Number: 5022-0000-0000-6659
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6660
+Enter account password: Account created. Number: 5022-0000-0000-6661
+Enter account password: Account created. Number: 5022-0000-0000-6662
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6663
+Enter account password: Account created. Number: 5022-0000-0000-6664
+Enter account password: Account created. Number: 5022-0000-0000-6665
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6666
+Enter account password: Account created. Number: 5022-0000-0000-6667
+Enter account password: Account created. Number: 5022-0000-0000-6668
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6669
+Enter account password: Account created. Number: 5022-0000-0000-6670
+Enter account password: Account created. Number: 5022-0000-0000-6671
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6672
+Enter account password: Account created. Number: 5022-0000-0000-6673
+Enter account password: Account created. Number: 5022-0000-0000-6674
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6675
+Enter account password: Account created. Number: 5022-0000-0000-6676
+Enter account password: Account created. Number: 5022-0000-0000-6677
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6678
+Enter account password: Account created. Number: 5022-0000-0000-6679
+Enter account password: Account created. Number: 5022-0000-0000-6680
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6681
+Enter account password: Account created. Number: 5022-0000-0000-6682
+Enter account password: Account created. Number: 5022-0000-0000-6683
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6684
+Enter account password: Account created. Number: 5022-0000-0000-6685
+Enter account password: Account created. Number: 5022-0000-0000-6686
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6687
+Enter account password: Account created. Number: 5022-0000-0000-6688
+Enter account password: Account created. Number: 5022-0000-0000-6689
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6690
+Enter account password: Account created. Number: 5022-0000-0000-6691
+Enter account password: Account created. Number: 5022-0000-0000-6692
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6693
+Enter account password: Account created. Number: 5022-0000-0000-6694
+Enter account password: Account created. Number: 5022-0000-0000-6695
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6696
+Enter account password: Account created. Number: 5022-0000-0000-6697
+Enter account password: Account created. Number: 5022-0000-0000-6698
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6699
+Enter account password: Account created. Number: 5022-0000-0000-6700
+Enter account password: Account created. Number: 5022-0000-0000-6701
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6702
+Enter account password: Account created. Number: 5022-0000-0000-6703
+Enter account password: Account created. Number: 5022-0000-0000-6704
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6705
+Enter account password: Account created. Number: 5022-0000-0000-6706
+Enter account password: Account created. Number: 5022-0000-0000-6707
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6708
+Enter account password: Account created. Number: 5022-0000-0000-6709
+Enter account password: Account created. Number: 5022-0000-0000-6710
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6711
+Enter account password: Account created. Number: 5022-0000-0000-6712
+Enter account password: Account created. Number: 5022-0000-0000-6713
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6714
+Enter account password: Account created. Number: 5022-0000-0000-6715
+Enter account password: Account created. Number: 5022-0000-0000-6716
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6717
+Enter account password: Account created. Number: 5022-0000-0000-6718
+Enter account password: Account created. Number: 5022-0000-0000-6719
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6720
+Enter account password: Account created. Number: 5022-0000-0000-6721
+Enter account password: Account created. Number: 5022-0000-0000-6722
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6723
+Enter account password: Account created. Number: 5022-0000-0000-6724
+Enter account password: Account created. Number: 5022-0000-0000-6725
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6726
+Enter account password: Account created. Number: 5022-0000-0000-6727
+Enter account password: Account created. Number: 5022-0000-0000-6728
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6729
+Enter account password: Account created. Number: 5022-0000-0000-6730
+Enter account password: Account created. Number: 5022-0000-0000-6731
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6732
+Enter account password: Account created. Number: 5022-0000-0000-6733
+Enter account password: Account created. Number: 5022-0000-0000-6734
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6735
+Enter account password: Account created. Number: 5022-0000-0000-6736
+Enter account password: Account created. Number: 5022-0000-0000-6737
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6738
+Enter account password: Account created. Number: 5022-0000-0000-6739
+Enter account password: Account created. Number: 5022-0000-0000-6740
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6741
+Enter account password: Account created. Number: 5022-0000-0000-6742
+Enter account password: Account created. Number: 5022-0000-0000-6743
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6744
+Enter account password: Account created. Number: 5022-0000-0000-6745
+Enter account password: Account created. Number: 5022-0000-0000-6746
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6747
+Enter account password: Account created. Number: 5022-0000-0000-6748
+Enter account password: Account created. Number: 5022-0000-0000-6749
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6750
+Enter account password: Account created. Number: 5022-0000-0000-6751
+Enter account password: Account created. Number: 5022-0000-0000-6752
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6753
+Enter account password: Account created. Number: 5022-0000-0000-6754
+Enter account password: Account created. Number: 5022-0000-0000-6755
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6756
+Enter account password: Account created. Number: 5022-0000-0000-6757
+Enter account password: Account created. Number: 5022-0000-0000-6758
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6759
+Enter account password: Account created. Number: 5022-0000-0000-6760
+Enter account password: Account created. Number: 5022-0000-0000-6761
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6762
+Enter account password: Account created. Number: 5022-0000-0000-6763
+Enter account password: Account created. Number: 5022-0000-0000-6764
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6765
+Enter account password: Account created. Number: 5022-0000-0000-6766
+Enter account password: Account created. Number: 5022-0000-0000-6767
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6768
+Enter account password: Account created. Number: 5022-0000-0000-6769
+Enter account password: Account created. Number: 5022-0000-0000-6770
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6771
+Enter account password: Account created. Number: 5022-0000-0000-6772
+Enter account password: Account created. Number: 5022-0000-0000-6773
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6774
+Enter account password: Account created. Number: 5022-0000-0000-6775
+Enter account password: Account created. Number: 5022-0000-0000-6776
+Logged out.
+Enter national code: 
+Error: User already exists.
+Error: Invalid command.
+Enter national code: 
+Enter user password: 
+Logged in.
+Enter account password: Account created. Number: 5022-0000-0000-6777
+Enter account password: Account created. Number: 5022-0000-0000-6778
+Enter account password: Account created. Number: 5022-0000-0000-6779
+Logged out.
