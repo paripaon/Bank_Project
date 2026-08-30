@@ -47,6 +47,12 @@ bool InputQueue::getLineBlocking(string& outLine) {
     return false;
 }
 
+void InputQueue::pushLine(const string& line) {
+    lock_guard<mutex> lock(mtx);
+    queue_.push(line);
+    cv.notify_all();
+}
+
 void InputQueue::readLoop() {
     string line;
     while (getline(cin, line)) {

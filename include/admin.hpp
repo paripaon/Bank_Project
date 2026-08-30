@@ -36,6 +36,7 @@ public:
     InputQueue();
     bool getLine(string& outLine, int timeoutSeconds);
     bool getLineBlocking(string& outLine);
+    void pushLine(const string& line);
 
 private:
     void readLoop();
