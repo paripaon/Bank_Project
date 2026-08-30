@@ -1,26 +1,35 @@
 #include <iostream>
-#include "include/user.hpp"
+#include "include/command_handlers.hpp"
 using namespace std;
 
 /*
- * Banking System — Phase 2
+ * Banking System — Phase 3
  */
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+
     FileManager fileManager;
     AuthService authService;
-    FeeManager feeManager(fileManager); 
+    FeeManager feeManager(fileManager);
     AccountService accountService(fileManager, authService);
-    TransactionService transactionService(fileManager, accountService, authService, feeManager);
+    RequestService requestService(fileManager, accountService);
+    TransactionService transactionService(fileManager, accountService, requestService, authService, feeManager);
+    OtpService otpService;
+    PayaService payaService(fileManager, accountService, transactionService, requestService);
     InputQueue inputQueue;
-    AccountOwnershipManager ownershipManager(fileManager);
-    UserFileManager userFileManager(fileManager);
+
+    OwnershipRepository ownershipManager(fileManager);
+    UserRepository userFileManager(fileManager);
     AuthSession session;
-    UserService userService(userFileManager, authService, session, ownershipManager);
-    UserAccountService userAccountService(accountService, ownershipManager, session, authService);
-    UserTransactionService userTransactionService(accountService, ownershipManager, session, transactionService, fileManager);
+    vector<shared_ptr<User>> loadedUsers = userFileManager.loadUsers();
+    RankingService rankingService(userFileManager, fileManager, loadedUsers);
+    UserService userService(userFileManager, authService, session, ownershipManager, rankingService, loadedUsers);
+    UserAccountService userAccountService(accountService, ownershipManager, session, authService, rankingService);
+    UserTransactionService userTransactionService(accountService, ownershipManager, session, transactionService, fileManager, rankingService, authService);
+    UserRequestService userRequestService(requestService, accountService, ownershipManager, session, authService, rankingService);
+
     HandleAdminCommand admin;
     HandleUserCommand user;
 
@@ -32,17 +41,17 @@ int main() {
         string command;
         iss >> command;
 
-        if (command == "exit") {
-            break;
-        }
+        if (command == "exit") break;
 
         if (admin.isAdminCommand(command)) {
-            admin.handleCommand(line, accountService, transactionService, authService, feeManager, inputQueue);
+            admin.handleCommand(line, accountService, transactionService, authService, feeManager, payaService, requestService, inputQueue, rankingService);
         }
         else if (user.isUserCommand(command)) {
-            user.handleCommand(line, userService, userAccountService, userTransactionService, ownershipManager, transactionService, inputQueue);
+            user.handleCommand(line, userService, userAccountService, userTransactionService, userRequestService, ownershipManager, transactionService, otpService, payaService, requestService, inputQueue, rankingService, authService);
         }
-        else cout << "Error: Invalid command." << endl;
+        else {
+            cout << "Error: Invalid command." << endl;
+        }
     }
 
     return 0;

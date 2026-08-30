@@ -18,9 +18,12 @@
 #include <mutex>
 #include <map>
 #include <condition_variable>
+#include <random>
 #include "json.hpp"
 #include "sha256.hpp"  
 #include "result.hpp" 
+#include "models.hpp"
+#include "persistence.hpp"
 using json = nlohmann::json;
 using namespace std;
 
@@ -43,196 +46,6 @@ private:
     bool finished = false;
 };
 
-//••••••••••••••••••Transaction••••••••••••••••••
-// Represents a single bank operation such as deposit, withdrawal, or transfer.
-class Transaction {
-public:
-    Transaction(int id, const string& type, double amount, const string& fromAccount, const string& toAccount, double balanceAfter = 0.0);
-
-    int getId() const;
-    string getType() const;
-    double getAmount() const;
-    string getFromAccount() const;
-    string getToAccount() const;
-    string getTimestamp() const;
-    double getBalanceAfter() const;
-
-    void setTimestamp(const string& ts);
-    void setBalanceAfter(double b);
-
-private:
-    int id;
-    string type;
-    double amount;
-    string fromAccount;
-    string toAccount;
-    string timestamp;
-    double balanceAfter;
-};
-
-//••••••••••••••••••Account••••••••••••••••••
-// Represents a bank account with balance, security info, and transaction history.
-// Handles basic operations like deposit, withdrawal, and transfer.
-class Account {
-public:
-    Account(const string& accNumber, int branchId, const string& passwordHash, double initialBalance);
-
-    string getAccountNumber() const;
-    int getBranchId() const;
-    double getBalance() const;
-    bool isActive() const;
-    string getPasswordHash() const;
-    const vector<shared_ptr<Transaction>>& getTransactions() const;
-
-    void setActive(bool status);
-    bool verifyPassword(const string& hashedPassword) const;
-    void deposit(double amount);
-
-    VoidResult withdraw(double amount, const string& hashedPassword);
-    VoidResult transfer(Account& toAccount, double amount, double fee, const string& hashedPassword);
-
-    void addTransaction(shared_ptr<Transaction> tx);
-    void clearTransactions();
-
-private:
-    string accountNumber;
-    int branchId;
-    double balance;
-    string passwordHash;
-    bool active;
-    vector<shared_ptr<Transaction>> transactions;
-};
-
-//••••••••••••••••••Branch••••••••••••••••••
-// Represents a bank branch that manages accounts under it.
-// Only stores and organizes accounts.
-class Branch {
-public:
-    Branch(int id, const string& name);
-
-    int getId() const;
-    string getName() const;
-    const vector<shared_ptr<Account>>& getAccounts() const;
-
-    void setName(const string& n);
-    void addAccount(shared_ptr<Account> account);
-    void removeAccount(string& accountNumber);
-    int getAccountCount() const;
-    shared_ptr<Account> findAccount(const string& accountNumber) const;
-
-private:
-    int id;
-    string name;
-    vector<shared_ptr<Account>> accounts;
-};
-
-//••••••••••••••••••Json_handling••••••••••••••••••
-
-class JsonFileStore {
-public:
-    json read(const string& path) const;
-    void write(const string& path, const json& data) const;
-};
-
-class BranchRepository {
-private:
-    JsonFileStore& store;
-    string path;
-
-public:
-    BranchRepository(JsonFileStore& store, string path);
-
-    vector<shared_ptr<Branch>> load() const;
-    void save(const vector<shared_ptr<Branch>>& branches) const;
-};
-
-class AccountRepository {
-private:
-    JsonFileStore& store;
-    string path;
-
-public:
-    AccountRepository(JsonFileStore& store, string path);
-
-    vector<shared_ptr<Account>> load() const;
-    void save(const vector<shared_ptr<Account>>& accounts) const;
-};
-
-class TransactionRepository {
-private:
-    JsonFileStore& store;
-    string path;
-
-public:
-    TransactionRepository(JsonFileStore& store, string path);
-
-    vector<shared_ptr<Transaction>> load() const;
-    void save(const vector<shared_ptr<Transaction>>& transactions) const;
-};
-
-class FeeRepository {
-private:
-    JsonFileStore& store;
-    string path;
-
-public:
-    FeeRepository(JsonFileStore& store, string path);
-
-    double getTransferFee() const;
-    double getBalanceInquiryFee() const;
-    void save(double transferFee, double balanceInquiryFee) const;
-};
-
-class MetaRepository {
-private:
-    JsonFileStore& store;
-    string path;
-
-public:
-    MetaRepository(JsonFileStore& store, string path);
-
-    void saveNextIds(int nextBranchId, int nextAccountSeq) const;
-    void saveNextTransactionId(int nextTransactionId) const;
-    void loadNextIds(int& nextBranchId, int& nextAccountSeq, int& nextTransactionId) const;
-    void loadNextTransactionId(int& nextTransactionId) const;
-};
-
-//••••••••••••••••••FileManager••••••••••••••••••
-class FileManager {
-private:
-    JsonFileStore store;
-    BranchRepository branchRepo;
-    AccountRepository accountRepo;
-    TransactionRepository transactionRepo;
-    FeeRepository feeRepo;
-    MetaRepository metaRepo;
-
-public:
-    FileManager();
-
-    json readFile(const string& path) const;
-    void writeFile(const string& path, const json& data) const;
-
-    vector<shared_ptr<Branch>> loadBranches() const;
-    vector<shared_ptr<Account>> loadAccounts() const;
-    vector<shared_ptr<Transaction>> loadTransactions() const;
-
-    void saveBranches(const vector<shared_ptr<Branch>>& branches) const;
-    void saveAccounts(const vector<shared_ptr<Account>>& accounts) const;
-    void saveTransactions(const vector<shared_ptr<Transaction>>& transactions) const;
-
-    void saveNextIds(int nextBranchId, int nextAccountSeq) const;
-    void saveNextTransactionId(int nextTransactionId) const;
-    void loadNextIds(int& nextBranchId, int& nextAccountSeq, int& nextTransactionId) const;
-    void loadNextTransactionId(int& nextTransactionId) const;
-
-    double getTransferFee() const;
-    double getBalanceInquiryFee() const;
-    void saveFees(double transferFee, double balanceInquiryFee) const;
-
-    void resetFiles();
-};
-
 //••••••••••••••••••AuthService••••••••••••••••••
 // Handles password hashing, verification, and user password input.
 // Checks user passwords using SHA-256 hashes.
@@ -247,7 +60,7 @@ private:
     string hashPassword(const string& rawPassword) const;
 };
 
-//••••••••••••••••••FeeManager••••••••••••••••••
+//••••••••••••••••••FeeSerive••••••••••••••••••
 // Stores and manages transfer and balance inquiry fees.
 // Loads and saves fee configuration through FileManager.
 class FeeManager {
@@ -272,8 +85,8 @@ public:
     AccountService(FileManager& fm, AuthService& as);
 
     void createBranch(string& name);
-    void listBranches() const;
-
+    VoidResult listBranches() const;
+    
     shared_ptr<Account> createUserAccount(const string& passwordHash);
     Result<shared_ptr<Account>> createAccount(int branchId, InputQueue& inputQueue);
 
@@ -304,15 +117,62 @@ private:
     void eraseAccount(const string& accountNumber);
 };
 
+//••••••••••••••••••OtpService••••••••••••••••••
+enum class OtpStatus { Valid, Expired, Invalid };
+
+class OtpService {
+public:
+    string requestOtp(const string& accountNumber, int& secondsRemaining);
+    OtpStatus verifyOtp(const string& accountNumber, const string& code);
+
+private:
+    struct OtpEntry {
+        string code;
+        chrono::steady_clock::time_point expiresAt;
+    };
+    map<string, OtpEntry> otps;
+    string generateCode() const;
+};
+
+//••••••••••••••••••RequestService••••••••••••••••••
+class RequestService {
+public:
+    RequestService(FileManager& fm, AccountService& as);
+
+    Result<shared_ptr<Request>> createRequest(const string& nationalCode, int branchId);
+    Result<vector<shared_ptr<Request>>> getRequestsOf(const string& nationalCode) const;
+    VoidResult cancelRequest(int requestId, const string& nationalCode);
+    Result<shared_ptr<Request>> prepareActivation(int requestId, const string& nationalCode);
+    void markActivated(int requestId, const string& accountNumber);
+
+    void branchDashboard(int branchId) const;
+    void listRequests(int branchId) const;
+    VoidResult approveRequest(int requestId);
+    VoidResult rejectRequest(int requestId, const string& reason);
+
+    shared_ptr<Request> findRequest(int requestId) const;
+    void resetAll();
+
+private:
+    FileManager& fileManager;
+    AccountService& accountService;
+    vector<shared_ptr<Request>> requests;
+    int nextRequestId;
+
+    bool hasActiveOrPendingInBranch(const string& nationalCode, int branchId) const;
+};
+
 //••••••••••••••••••TransactionService••••••••••••••••••
 // Handles money operations and transaction history.
 class TransactionService {
 public:
-    TransactionService(FileManager& fm, AccountService& as, AuthService& auth, FeeManager& fee);
+    TransactionService(FileManager& fm, AccountService& as, RequestService& rs, AuthService& auth, FeeManager& fee);
 
     Result<shared_ptr<Transaction>> deposit(const string& accountNumber, double amount);
     Result<shared_ptr<Transaction>> withdraw(const string& accountNumber, double amount, InputQueue& inputQueue, const string& wrongPasswordMessage = "Wrong password.");
+    Result<shared_ptr<Transaction>> debitForPaya(const string& accountNumber, double amount);
     Result<shared_ptr<Transaction>> transfer(const string& from, const string& to, double amount, InputQueue& inputQueue, const string& wrongPasswordMessage = "Wrong password.");
+    Result<shared_ptr<Transaction>> onlinePayment(const string& from, const string& to, double amount, const string& enteredOtp, OtpService& otpService);
 
     Result<shared_ptr<Account>> getBalance(const string& accountNumber);
     Result<shared_ptr<Account>> getBalanceForUser(const string& accountNumber);
@@ -320,143 +180,39 @@ public:
     void getHistory(string& accountNumber) const;
     void getTransaction(int id) const;
     VoidResult clearHistory(string& accountNumber, InputQueue& inputQueue);
-    void resetAll();
+    void reset();
 
     const vector<shared_ptr<Transaction>>& getAllTransactions() const;
 
 private:
     AccountService& accountService;
     FileManager& fileManager;
+    RequestService& requestService;
     AuthService& authService;
     FeeManager& feeManager;
     vector<shared_ptr<Transaction>> transactions;
     int nextTransactionId;
 };
 
-//••••••••••••••••••Input_Handling••••••••••••••••••
-
-class CommandParser {
+//••••••••••••••••••PayaService••••••••••••••••••
+class PayaService {
 public:
-    static bool isValidAccountNumber(const string& acc);
-    static VoidResult requireArgs(const string& args, int count = 1);
-    static VoidResult parseAccountAmount(const string& args, string& acc, double& amount);
-    static VoidResult parseTransfer(const string& args, string& from, string& to, double& amount);
-    static bool confirm(InputQueue& inputQueue, const string& prompt = "Are you sure? This deletes everything. (yes/no): ");
-};
+    PayaService(FileManager& fm, AccountService& as, TransactionService& ts, RequestService& rs);
 
-struct AdminCommandContext {
-    AccountService& accounts;
-    TransactionService& transactions;
-    AuthService& auth;
-    FeeManager& fees;
-    InputQueue& input;
+    Result<shared_ptr<PayaRequest>> createRequest(const string& fromAccount, const string& destinationIban, double amount);
+    void listRequests() const;
+    Result<shared_ptr<Transaction>> approve(int requestId);
+    VoidResult reject(int requestId);
 
-    AdminCommandContext(AccountService& as, TransactionService& ts, AuthService& authS, FeeManager& fm, InputQueue& iq);
-};
-
-template<typename Context>
-class Command {
-public:
-    virtual ~Command() = default;
-    virtual void execute(const string& args, Context& ctx) = 0;
-};
-
-class AdminCommand : public Command<AdminCommandContext> {};
-
-class CreateBranchCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class ListBranchesCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class CreateAccountCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class CloseAccountCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class DeleteAccountCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class ListAccountsCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class DepositCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class WithdrawCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class TransferCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class GetBalanceCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class GetHistoryCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class GetTransactionCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class ClearHistoryCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class ResetAllCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class SetTransferFeeCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class SetBalanceInquiryFeeCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class ShowFeesCommand : public AdminCommand {
-public:
-    void execute(const string& args, AdminCommandContext& ctx) override;
-};
-
-class HandleAdminCommand {
-public:
-    HandleAdminCommand();
-
-    bool isAdminCommand(const string& command);
-    bool requireArgs(const string& args, int count = 1);
-    void handleCommand(string& line, AccountService& as, TransactionService& ts, AuthService& auth, FeeManager& fm, InputQueue& inputQueue);
+    void resetAll();
 
 private:
-    map<string, unique_ptr<AdminCommand>> commands;
-    void registerCommands();
+    FileManager& fileManager;
+    AccountService& accountService;
+    TransactionService& transactionService;
+    RequestService& requestService;
+    vector<shared_ptr<PayaRequest>> requests;
+    int nextRequestId;
+
+    shared_ptr<PayaRequest> findRequest(int id);
 };

@@ -19,45 +19,9 @@
 #include <mutex>
 #include <condition_variable>
 #include "admin.hpp" 
+#include "models.hpp"
+#include "persistence.hpp"
 using namespace std;
-
-//••••••••••••••••••NationalCodeValidator••••••••••••••••••
-// Validates Iranian national codes using the modulo-11 check digit algorithm.
-// This class only checks if a national code is valid and does not depend on any other classes.
-class NationalCodeValidator {
-public:
-    static bool isValid(const string& rawCode);
-    static string normalize(const string& rawCode);
-};
-
-//••••••••••••••••••User••••••••••••••••••
-// Represents a regular user with a national code and password.
-class User {
-public:
-    User(const string& nationalCode, const string& passwordHash);
-
-    string getNationalCode() const;
-    string getPasswordHash() const;
-    bool verifyPassword(const string& hashedPassword) const;
-
-private:
-    string nationalCode;
-    string passwordHash;
-};
-
-//••••••••••••••••••UserFileManager••••••••••••••••••
-// Handles reading and writing user data to file.
-class UserFileManager {
-public:
-    explicit UserFileManager(FileManager& fm);
-
-    vector<shared_ptr<User>> loadUsers() const;
-    void saveUsers(const vector<shared_ptr<User>>& users) const;
-
-private:
-    FileManager& fileManager;
-    string usersPath = "data/users.json";
-};
 
 //••••••••••••••••••AuthSession••••••••••••••••••
 // Keeps track of the currently logged-in user.
@@ -73,45 +37,49 @@ private:
     shared_ptr<User> currentUser = nullptr;
 };
 
-//••••••••••••••••••AccountOwnershipManager••••••••••••••••••
-// Keeps track of which user owns each bank account.
-// It stores which national code owns each account number.
-class AccountOwnershipManager {
-public:
-    explicit AccountOwnershipManager(FileManager& fm);
+//••••••••••••••••••RankingService••••••••••••••••••
+struct RankEntry {
+    string nationalCode;
+    int score;
+    string level;
+    int rank;
+};
 
-    void registerOwnership(const string& accountNumber, const string& nationalCode);
-    void removeOwnership(const string& accountNumber);
-    bool isOwnedBy(const string& accountNumber, const string& nationalCode) const;
-    vector<string> getAccountsOf(const string& nationalCode) const;
-    void reload();
-
-private:
+class RankingService {
+    UserRepository& userRepo;
     FileManager& fileManager;
-    string ownersPath = "data/account_owners.json";
-    map<string, string> ownerOf;
+    vector<shared_ptr<User>>& users; // reference to the live list held by UserService
+    int nextUserSeq;
+public:
+    RankingService(UserRepository& ur, FileManager& fm, vector<shared_ptr<User>>& usersRef);
 
-    void persist() const;
+    int assignRegistrationSeq(); // called on signup, returns seq and persists counter
+    void awardScore(const string& nationalCode, int delta);
+    Result<RankEntry> getRank(const string& nationalCode);
+    vector<RankEntry> getAllRankings();
 };
 
 //••••••••••••••••••UserService••••••••••••••••••
 // Handles signup, login, logout, and user deletion for regular users.
 class UserService {
 public:
-    UserService(UserFileManager& ufm, AuthService& as, AuthSession& sess, AccountOwnershipManager& own);
+    UserService(UserRepository& ur, AuthService& as, AuthSession& sess, OwnershipRepository& own, RankingService& rank, vector<shared_ptr<User>>& usersRef);
 
     VoidResult signup(InputQueue& inputQueue);
     Result<shared_ptr<User>> login(InputQueue& inputQueue);
     VoidResult logout();
     VoidResult deleteCurrentUser(InputQueue& inputQueue);
+
+    Result<string> currentNationalCode() const;
     void reload();
 
 private:
-    UserFileManager& userFileManager;
+    UserRepository& userRepo;
     AuthService& authService;
     AuthSession& session;
-    AccountOwnershipManager& ownership;
-    vector<shared_ptr<User>> users;
+    OwnershipRepository& ownership;
+    RankingService& ranking;
+    vector<shared_ptr<User>>& users;
 
     shared_ptr<User> findUser(const string& nationalCode);
 };
@@ -122,7 +90,7 @@ class AccountOwnershipValidator {
 public:
     static Result<shared_ptr<Account>> findOwnedAccount(
         AccountService& accountService,
-        AccountOwnershipManager& ownership,
+        OwnershipRepository& ownership,
         const string& accountNumber,
         const string& nationalCode,
         const string& notFoundMessage = "Error: Account not found.");
@@ -132,17 +100,37 @@ public:
 // Lets logged-in users open, view, and delete their own accounts.
 class UserAccountService {
 public:
-    UserAccountService(AccountService& as, AccountOwnershipManager& own, AuthSession& sess, AuthService& auth);
+    UserAccountService(AccountService& as, OwnershipRepository& own, AuthSession& sess, AuthService& auth, RankingService& rank);
 
-    Result<shared_ptr<Account>> openAccount(InputQueue& inputQueue);
     Result<vector<shared_ptr<Account>>> myAccounts();
     VoidResult deleteMyAccount(const string& accountNumber, InputQueue& inputQueue);
+    Result<string> showIban(const string& accountNumber);
 
 private:
     AccountService& accountService;
-    AccountOwnershipManager& ownership;
+    OwnershipRepository& ownership;
     AuthSession& session;
     AuthService& authService;
+    RankingService& rank;
+};
+
+//••••••••••••••••••UserRequestService••••••••••••••••••
+class UserRequestService {
+public:
+    UserRequestService(RequestService& rs, AccountService& as, OwnershipRepository& own, AuthSession& sess, AuthService& auth, RankingService& rank);
+
+    Result<shared_ptr<Request>> requestAccount(int branchId);
+    Result<vector<shared_ptr<Request>>> myRequests();
+    VoidResult cancelRequest(int requestId);
+    Result<shared_ptr<Account>> activateAccount(int requestId, InputQueue& inputQueue);
+
+private:
+    RequestService& requestService;
+    AccountService& accountService;
+    OwnershipRepository& ownership;
+    AuthSession& session;
+    AuthService& authService;
+    RankingService& rank;
 };
 
 //••••••••••••••••••UserTransactionService••••••••••••••••••
@@ -150,108 +138,23 @@ private:
 // Reuses TransactionService and adds ownership validation.
 class UserTransactionService {
 public:
-    UserTransactionService(AccountService& as, AccountOwnershipManager& own, AuthSession& sess, TransactionService& ts, FileManager& fm);
+    UserTransactionService(AccountService& as, OwnershipRepository& own, AuthSession& sess, TransactionService& ts, FileManager& fm, RankingService& rank, AuthService& authService);
 
     VoidResult depositTo(const string& accountNumber, double amount);
     VoidResult withdrawFrom(const string& accountNumber, double amount, InputQueue& inputQueue);
     VoidResult sendMoney(const string& from, const string& to, double amount, InputQueue& inputQueue);
     VoidResult balanceInquiry(const string& accountNumber);
+    Result<string> requestOtp(const string& accountNumber, OtpService& otpService);
+    VoidResult onlinePayment(const string& from, const string& to, double amount, InputQueue& inputQueue, OtpService& otpService);
+    VoidResult payaTransfer(const string& from, const string& destinationIban, double amount, InputQueue& inputQueue, PayaService& payaService, AuthService& authService);
+    VoidResult exportHistory(const string& accountNumber, const string& format = "json");
 
 private:
     AccountService& accountService;
-    AccountOwnershipManager& ownership;
+    OwnershipRepository& ownership;
     AuthSession& session;
     TransactionService& transactionService;
     FileManager& fileManager;
-};
-
-//••••••••••••••••••Input_Handling••••••••••••••••••
-
-struct UserCommandContext {
-    UserService& users;
-    UserAccountService& userAccounts;
-    UserTransactionService& userTransactions;
-    AccountOwnershipManager& ownership;
-    TransactionService& transactions;
-    InputQueue& input;
-
-    UserCommandContext(UserService& us, UserAccountService& uas, UserTransactionService& uts, AccountOwnershipManager& own, TransactionService& ts, InputQueue& iq);
-};
-
-class UserCommand : public Command<UserCommandContext> {
-public:
-    virtual ~UserCommand() = default;
-};
-
-class SignupCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class LoginCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class LogoutCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class DeleteMyUserCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class OpenAccountCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class DeleteMyAccountCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class MyAccountsCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class DepositToCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class WithdrawFromCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class SendMoneyCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class BalanceInquiryCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class ResetAllUserCommand : public UserCommand {
-public:
-    void execute(const string& args, UserCommandContext& ctx) override;
-};
-
-class HandleUserCommand {
-public:
-    HandleUserCommand();                     
-    explicit HandleUserCommand(HandleAdminCommand&);  
-
-    bool isUserCommand(const string& command);
-    void handleCommand(string& line, UserService& us, UserAccountService& uas, UserTransactionService& uts, AccountOwnershipManager& ownership, TransactionService& ts, InputQueue& inputQueue);
-
-private:
-    map<string, unique_ptr<UserCommand>> commands;
-    void registerCommands();
+    RankingService& rank;
+    AuthService& authService;
 };

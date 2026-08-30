@@ -14,6 +14,7 @@
 #include <map>
 #include <memory>
 #include <algorithm>
+#include <random>
 
 //••••••••••••••••••InputQueue••••••••••••••••••
 // reads input lines in a background thread and stores them in a queue.
@@ -62,376 +63,6 @@ void InputQueue::readLoop() {
     cv.notify_all();
 }
 
-//••••••••••••••••••Transaction••••••••••••••••••
-// Represents a single bank operation such as deposit, withdrawal, or transfer.
-Transaction::Transaction(int id, const string& type, double amount, const string& fromAccount, const string& toAccount, double balanceAfter)
-    : id(id), type(type), amount(amount), fromAccount(fromAccount), toAccount(toAccount), balanceAfter(balanceAfter) {
-    auto now = chrono::system_clock::now();
-    time_t currentTime = chrono::system_clock::to_time_t(now);
-    tm localTime = *localtime(&currentTime);
-    stringstream ss;
-    ss << put_time(&localTime, "%Y-%m-%d %H:%M:%S");
-    timestamp = ss.str();
-}
-
-int Transaction::getId() const { return id; }
-string Transaction::getType() const { return type; }
-double Transaction::getAmount() const { return amount; }
-string Transaction::getFromAccount() const { return fromAccount; }
-string Transaction::getToAccount() const { return toAccount; }
-string Transaction::getTimestamp() const { return timestamp; }
-double Transaction::getBalanceAfter() const { return balanceAfter; }
-
-void Transaction::setTimestamp(const string& ts) { timestamp = ts; }
-void Transaction::setBalanceAfter(double b) { balanceAfter = b; }
-
-//••••••••••••••••••Account••••••••••••••••••
-// Represents a bank account with balance, security info, and transaction history.
-// Handles basic operations like deposit, withdrawal, and transfer.
-Account::Account(const string& accNumber, int branchId, const string& passwordHash, double initialBalance)
-    : accountNumber(accNumber), branchId(branchId), balance(initialBalance), passwordHash(passwordHash), active(true) {}
-
-string Account::getAccountNumber() const { return accountNumber; }
-int Account::getBranchId() const { return branchId; }
-double Account::getBalance() const { return balance; }
-bool Account::isActive() const { return active; }
-string Account::getPasswordHash() const { return passwordHash; }
-const vector<shared_ptr<Transaction>>& Account::getTransactions() const { return transactions; }
-
-void Account::setActive(bool status) { active = status; }
-
-bool Account::verifyPassword(const string& hashedPassword) const {
-    return passwordHash == hashedPassword;
-}
-
-void Account::deposit(double amount) { balance += amount; }
-
-VoidResult Account::withdraw(double amount, const string& hashedPassword) {
-    if (!verifyPassword(hashedPassword)) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::WrongPassword));
-    }
-    if (balance < amount) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InsufficientFunds));
-    }
-    balance -= amount;
-    return VoidResult::success();
-}
-
-VoidResult Account::transfer(Account& toAccount, double amount, double fee, const string& hashedPassword) {
-    if (!verifyPassword(hashedPassword)) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::WrongPassword));
-    }
-    if (balance < amount + fee) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InsufficientFunds));
-    }
-    balance -= (amount + fee);
-    toAccount.deposit(amount);
-    return VoidResult::success();
-}
-
-void Account::addTransaction(shared_ptr<Transaction> tx) { transactions.push_back(tx); }
-void Account::clearTransactions() { transactions.clear(); }
-
-//••••••••••••••••••Branch••••••••••••••••••
-// Represents a bank branch that manages accounts under it.
-// Only stores and organizes accounts.
-Branch::Branch(int id, const string& name) : id(id), name(name) {}
-
-int Branch::getId() const { return id; }
-string Branch::getName() const { return name; }
-const vector<shared_ptr<Account>>& Branch::getAccounts() const { return accounts; }
-
-void Branch::setName(const string& n) { name = n; }
-
-void Branch::addAccount(shared_ptr<Account> account) {
-    accounts.push_back(account);
-}
-
-void Branch::removeAccount(string& accountNumber) {
-    for (auto it = accounts.begin(); it != accounts.end(); ++it) {
-        if ((*it)->getAccountNumber() == accountNumber) {
-            accounts.erase(it);
-            break;
-        }
-    }
-}
-
-int Branch::getAccountCount() const { return static_cast<int>(accounts.size()); }
-
-shared_ptr<Account> Branch::findAccount(const string& accountNumber) const {
-    for (const auto& acc : accounts)
-        if (acc->getAccountNumber() == accountNumber) return acc;
-    return nullptr;
-}
-
-//••••••••••••••••••Json_handling••••••••••••••••••
-
-json JsonFileStore::read(const string& path) const {
-    ifstream file(path);
-    if (!file.is_open()) return json::object();
-
-    stringstream buffer;
-    buffer << file.rdbuf();
-    string content = buffer.str();
-
-    if (content.find_first_not_of(" \t\n\r") == string::npos)
-        return json::object();
-
-    try { return json::parse(content); }
-    catch (const json::parse_error&) { return json{}; }
-}
-
-void JsonFileStore::write(const string& path, const json& data) const {
-    ofstream file(path);
-    file << data.dump(4);
-}
-
-BranchRepository::BranchRepository(JsonFileStore& store, string path)
-    : store(store), path(move(path)) {}
-
-vector<shared_ptr<Branch>> BranchRepository::load() const {
-    vector<shared_ptr<Branch>> branches;
-    json data = store.read(path);
-
-    if (data.empty() or !data.contains("branches")) return branches;
-    for (auto& b : data["branches"])
-        branches.push_back(make_shared<Branch>(
-            b["id"].get<int>(),
-            b["name"].get<string>())
-        );
-    return branches;
-}
-
-void BranchRepository::save(const vector<shared_ptr<Branch>>& branches) const {
-    json data;
-    data["branches"] = json::array();
-    for (auto& b : branches) {
-        json branch;
-        branch["id"] = b->getId();
-        branch["name"] = b->getName();
-        branch["accounts"] = json::array();
-        for (const auto& acc : b->getAccounts())
-            branch["accounts"].push_back(acc->getAccountNumber());
-        data["branches"].push_back(branch);
-    }
-    store.write(path, data);
-}
-
-AccountRepository::AccountRepository(JsonFileStore& store, string path)
-    : store(store), path(move(path)) {}
-
-vector<shared_ptr<Account>> AccountRepository::load() const {
-    vector<shared_ptr<Account>> accounts;
-    json data = store.read(path);
-
-    if (data.empty() or !data.contains("accounts")) return accounts;
-    for (auto& a : data["accounts"]) {
-        auto account = make_shared<Account>(
-            a["number"].get<string>(),
-            a["branchId"].get<int>(),
-            a["passwordHash"].get<string>(),
-            a["balance"].get<double>()
-        );
-        account->setActive(a["active"].get<bool>());
-        accounts.push_back(account);
-    }
-    return accounts;
-}
-
-void AccountRepository::save(const vector<shared_ptr<Account>>& accounts) const {
-    json data;
-    data["accounts"] = json::array();
-    for (auto& a : accounts) {
-        json account;
-        account["number"] = a->getAccountNumber();
-        account["branchId"] = a->getBranchId();
-        account["balance"] = a->getBalance();
-        account["passwordHash"] = a->getPasswordHash();
-        account["active"] = a->isActive();
-        account["transactions"] = json::array();
-        for (auto& tx : a->getTransactions())
-            account["transactions"].push_back(tx->getId());
-        data["accounts"].push_back(account);
-    }
-    store.write(path, data);
-}
-
-TransactionRepository::TransactionRepository(JsonFileStore& store, string path)
-    : store(store), path(move(path)) {}
-
-vector<shared_ptr<Transaction>> TransactionRepository::load() const {
-    vector<shared_ptr<Transaction>> transactions;
-    json data = store.read(path);
-
-    if (data.empty() or !data.contains("transactions")) return transactions;
-    for (auto& t : data["transactions"]) {
-        auto tx = make_shared<Transaction>(
-            t["id"].get<int>(),
-            t["type"].get<string>(),
-            t["amount"].get<double>(),
-            t["fromAccount"].get<string>(),
-            t["toAccount"].get<string>(),
-            t.value("balanceAfter", 0.0)
-        );
-        tx->setTimestamp(t["timestamp"].get<string>());
-        transactions.push_back(tx);
-    }
-    return transactions;
-}
-
-void TransactionRepository::save(const vector<shared_ptr<Transaction>>& transactions) const {
-    json data;
-    data["transactions"] = json::array();
-    for (auto& t : transactions) {
-        json tx;
-        tx["id"] = t->getId();
-        tx["type"] = t->getType();
-        tx["amount"] = t->getAmount();
-        tx["fromAccount"] = t->getFromAccount();
-        tx["toAccount"] = t->getToAccount();
-        tx["timestamp"] = t->getTimestamp();
-        tx["balanceAfter"] = t->getBalanceAfter();
-        data["transactions"].push_back(tx);
-    }
-    store.write(path, data);
-}
-
-FeeRepository::FeeRepository(JsonFileStore& store, string path)
-    : store(store), path(move(path)) {}
-
-double FeeRepository::getTransferFee() const {
-    json data = store.read(path);
-    return data.value("transfer_fee", 0.0);
-}
-
-double FeeRepository::getBalanceInquiryFee() const {
-    json data = store.read(path);
-    return data.value("balance_inquiry_fee", 0.0);
-}
-
-void FeeRepository::save(double transferFee, double balanceInquiryFee) const {
-    json data;
-    data["transfer_fee"] = transferFee;
-    data["balance_inquiry_fee"] = balanceInquiryFee;
-    store.write(path, data);
-}
-
-MetaRepository::MetaRepository(JsonFileStore& store, string path)
-    : store(store), path(move(path)) {}
-
-void MetaRepository::saveNextIds(int nextBranchId, int nextAccountSeq) const {
-    json data = store.read(path);
-    data["nextBranchId"] = nextBranchId;
-    data["nextAccountSeq"] = nextAccountSeq;
-    store.write(path, data);
-}
-
-void MetaRepository::saveNextTransactionId(int nextTransactionId) const {
-    json data = store.read(path);
-    data["nextTransactionId"] = nextTransactionId;
-    store.write(path, data);
-}
-
-void MetaRepository::loadNextIds(int& nextBranchId, int& nextAccountSeq, int& nextTransactionId) const {
-    json data = store.read(path);
-    if (data.empty()) {
-        nextBranchId = 10001;
-        nextAccountSeq = 1;
-        nextTransactionId = 1001;
-        return;
-    }
-    nextBranchId = data.value("nextBranchId", 10001);
-    nextAccountSeq = data.value("nextAccountSeq", 1);
-    nextTransactionId = data.value("nextTransactionId", 1001);
-}
-
-void MetaRepository::loadNextTransactionId(int& nextTransactionId) const {
-    json data = store.read(path);
-    if (data.empty()) {
-        nextTransactionId = 1001;
-        return;
-    }
-    nextTransactionId = data.value("nextTransactionId", 1001);
-}
-
-//••••••••••••••••••FileManager••••••••••••••••••
-FileManager::FileManager()
-    : branchRepo(store, "data/branches.json"),
-      accountRepo(store, "data/accounts.json"),
-      transactionRepo(store, "data/transactions.json"),
-      feeRepo(store, "data/fees.json"),
-      metaRepo(store, "data/meta.json") {}
-
-json FileManager::readFile(const string& path) const {
-    return store.read(path);
-}
-
-void FileManager::writeFile(const string& path, const json& data) const {
-    store.write(path, data);
-}
-
-vector<shared_ptr<Branch>> FileManager::loadBranches() const {
-    return branchRepo.load();
-}
-
-vector<shared_ptr<Account>> FileManager::loadAccounts() const {
-    return accountRepo.load();
-}
-
-vector<shared_ptr<Transaction>> FileManager::loadTransactions() const {
-    return transactionRepo.load();
-}
-
-void FileManager::saveBranches(const vector<shared_ptr<Branch>>& branches) const {
-    branchRepo.save(branches);
-}
-
-void FileManager::saveAccounts(const vector<shared_ptr<Account>>& accounts) const {
-    accountRepo.save(accounts);
-}
-
-void FileManager::saveTransactions(const vector<shared_ptr<Transaction>>& transactions) const {
-    transactionRepo.save(transactions);
-}
-
-void FileManager::saveNextIds(int nextBranchId, int nextAccountSeq) const {
-    metaRepo.saveNextIds(nextBranchId, nextAccountSeq);
-}
-
-void FileManager::saveNextTransactionId(int nextTransactionId) const {
-    metaRepo.saveNextTransactionId(nextTransactionId);
-}
-
-void FileManager::loadNextIds(int& nextBranchId, int& nextAccountSeq, int& nextTransactionId) const {
-    metaRepo.loadNextIds(nextBranchId, nextAccountSeq, nextTransactionId);
-}
-
-void FileManager::loadNextTransactionId(int& nextTransactionId) const {
-    metaRepo.loadNextTransactionId(nextTransactionId);
-}
-
-double FileManager::getTransferFee() const {
-    return feeRepo.getTransferFee();
-}
-
-double FileManager::getBalanceInquiryFee() const {
-    return feeRepo.getBalanceInquiryFee();
-}
-
-void FileManager::saveFees(double transferFee, double balanceInquiryFee) const {
-    feeRepo.save(transferFee, balanceInquiryFee);
-}
-
-void FileManager::resetFiles() {
-    writeFile("data/transactions.json", json::object());
-    writeFile("data/meta.json", json::object());
-    writeFile("data/fees.json", json::object());
-    writeFile("data/branches.json", json::object());
-    writeFile("data/accounts.json", json::object());
-    writeFile("data/users.json", json::object());
-    writeFile("data/account_owners.json", json::object());
-}
-
 //••••••••••••••••••AuthService••••••••••••••••••
 // Handles password hashing, verification, and user password input.
 // Checks user passwords using SHA-256 hashes.
@@ -459,7 +90,7 @@ string AuthService::generateHash(const string& rawPassword) const {
     return hashPassword(rawPassword);
 }
 
-//••••••••••••••••••FeeManager••••••••••••••••••
+//••••••••••••••••••FeeService••••••••••••••••••
 // Stores and manages transfer and balance inquiry fees.
 // Loads and saves fee configuration through FileManager.
 FeeManager::FeeManager(FileManager& fm) : fileManager(fm) {}
@@ -515,14 +146,15 @@ void AccountService::createBranch(string& name) {
     fileManager.saveNextIds(nextBranchId, nextAccountSeq);
 }
 
-void AccountService::listBranches() const {
+VoidResult AccountService::listBranches() const {
     if (branches.empty()) {
-        cout << "No branches exist." << endl;
-        return;
+        return VoidResult::failure(ServiceError(ServiceError::Code::NotFound, "No branches available."));
     }
     for (auto& b : branches)
         cout << b->getId() << " | " << b->getName() << endl;
+    return VoidResult::success();
 }
+
 
 shared_ptr<Account> AccountService::createUserAccount(const string& passwordHash) {
     string accountNumber = generateAccountNumber();
@@ -654,10 +286,203 @@ void AccountService::eraseAccount(const string& accountNumber) {
     fileManager.saveBranches(branches);
 }
 
+//••••••••••••••••••RequestService••••••••••••••••••
+RequestService::RequestService(FileManager& fm, AccountService& as) : fileManager(fm), accountService(as) { 
+        fileManager.loadNextRequestId(nextRequestId); 
+        requests = fileManager.loadRequests();
+    }
+
+bool RequestService::hasActiveOrPendingInBranch(const string& nationalCode, int branchId) const {
+    for (auto& r : requests) {
+        if (r->getNationalCode() == nationalCode and r->getBranchId() == branchId) {
+            if (r->getStatus() == "PENDING" or r->getStatus() == "APPROVED" or r->getStatus() == "ACTIVATED") return true;
+        }
+    }
+    return false;
+}
+
+Result<shared_ptr<Request>> RequestService::createRequest(const string& nationalCode, int branchId) {
+    auto branch = accountService.getBranch(branchId);
+    if (!branch) {
+        return Result<shared_ptr<Request>>::failure(ServiceError(ServiceError::Code::NotFound, "Branch not found."));
+    }
+    if (hasActiveOrPendingInBranch(nationalCode, branchId)) {
+        return Result<shared_ptr<Request>>::failure(ServiceError(ServiceError::Code::AlreadyExists, "You already have a pending or active account in this branch."));
+    }
+    auto req = make_shared<Request>(nextRequestId++, nationalCode, branchId, "PENDING");
+    requests.push_back(req);
+    fileManager.saveRequests(requests);
+    fileManager.saveNextRequestId(nextRequestId);
+    return Result<shared_ptr<Request>>::success(req);
+}
+
+Result<vector<shared_ptr<Request>>> RequestService::getRequestsOf(const string& nationalCode) const {
+    vector<shared_ptr<Request>> result;
+    for (auto& r : requests)
+        if (r->getNationalCode() == nationalCode) result.push_back(r);
+    return Result<vector<shared_ptr<Request>>>::success(result);
+}
+
+VoidResult RequestService::cancelRequest(int requestId, const string& nationalCode) {
+    auto req = findRequest(requestId);
+    if (!req) {
+        return VoidResult::failure(ServiceError(ServiceError::Code::NotFound, "Request not found."));
+    }
+    if (req->getNationalCode() != nationalCode) {
+        return VoidResult::failure(ServiceError(ServiceError::Code::NotOwner, "Request does not belong to user."));
+    }
+    if (req->getStatus() != "PENDING" and req->getStatus() != "APPROVED") {
+        return VoidResult::failure(ServiceError(ServiceError::Code::Custom, "Request is not cancellable."));
+    }
+    req->setStatus("CANCELLED");
+    fileManager.saveRequests(requests);
+    return VoidResult::success();
+}
+
+Result<shared_ptr<Request>> RequestService::prepareActivation(int requestId, const string& nationalCode) {
+    auto req = findRequest(requestId);
+    if (!req) {
+        return Result<shared_ptr<Request>>::failure(ServiceError(ServiceError::Code::NotFound, "Request not found."));
+    }
+    if (req->getNationalCode() != nationalCode) {
+        return Result<shared_ptr<Request>>::failure(ServiceError(ServiceError::Code::NotOwner, "Request does not belong to user."));
+    }
+    if (req->getStatus() != "APPROVED") {
+        return Result<shared_ptr<Request>>::failure(ServiceError(ServiceError::Code::Custom, "Request is not approved."));
+    }
+    return Result<shared_ptr<Request>>::success(req);
+}
+
+void RequestService::markActivated(int requestId, const string& accountNumber) {
+    auto req = findRequest(requestId);
+    if (!req) return;
+    req->setStatus("ACTIVATED");
+    req->setAccountNumber(accountNumber);
+    fileManager.saveRequests(requests);
+}
+
+void RequestService::branchDashboard(int branchId) const {
+    auto activeAccounts = 0;
+    for (auto& a : accountService.getAccounts())
+        if (a->getBranchId() == branchId and a->isActive()) activeAccounts++;
+
+    int pending = 0;
+    int rejectedToday = 0;
+
+    auto now = chrono::system_clock::now();
+    time_t currentTime = chrono::system_clock::to_time_t(now);
+    tm localTime = *localtime(&currentTime);
+    stringstream todaySs;
+    todaySs << put_time(&localTime, "%Y-%m-%d");
+    string today = todaySs.str();
+
+    for (auto& r : requests) {
+        if (r->getBranchId() != branchId) continue;
+        if (r->getStatus() == "PENDING") pending++;
+        if (r->getStatus() == "REJECTED" and r->getTimestamp().substr(0, 10) == today) rejectedToday++;
+    }
+
+    cout << "Active accounts : " << activeAccounts << endl;
+    cout << "Pending requests: " << pending << endl;
+    cout << "Rejected (today): " << rejectedToday << endl;
+}
+
+void RequestService::listRequests(int branchId) const {
+    bool found = false;
+    for (auto& r : requests) {
+        if (r->getBranchId() == branchId and r->getStatus() == "PENDING") {
+            cout << r->getId() << " | User: " << r->getNationalCode()
+                 << " | Branch: " << r->getBranchId()
+                 << " | " << r->getTimestamp()
+                 << " | " << r->getStatus() << endl;
+            found = true;
+        }
+    }
+    if (!found) {
+        cout << "No pending requests for this branch." << endl;
+    }
+}
+
+VoidResult RequestService::approveRequest(int requestId) {
+    auto req = findRequest(requestId);
+    if (!req) {
+        return VoidResult::failure(ServiceError(ServiceError::Code::NotFound, "Request not found."));
+    }
+    if (req->getStatus() != "PENDING") {
+        return VoidResult::failure(ServiceError(ServiceError::Code::Custom, "Request is not pending."));
+    }
+    req->setStatus("APPROVED");
+    fileManager.saveRequests(requests);
+    return VoidResult::success();
+}
+
+VoidResult RequestService::rejectRequest(int requestId, const string& reason) {
+    auto req = findRequest(requestId);
+    if (!req) {
+        return VoidResult::failure(ServiceError(ServiceError::Code::NotFound, "Request not found."));
+    }
+    if (req->getStatus() != "PENDING") {
+        return VoidResult::failure(ServiceError(ServiceError::Code::Custom, "Request is not pending."));
+    }
+    req->setStatus("REJECTED");
+    req->setReason(reason);
+    fileManager.saveRequests(requests);
+    return VoidResult::success();
+}
+
+shared_ptr<Request> RequestService::findRequest(int requestId) const {
+    for (auto& r : requests)
+        if (r->getId() == requestId) return r;
+    return nullptr;
+}
+
+void RequestService::resetAll() {
+    requests.clear();
+    nextRequestId = 2001;
+    fileManager.saveNextRequestId(nextRequestId);
+}
+
+//••••••••••••••••••OtpService••••••••••••••••••
+string OtpService::generateCode() const {
+    static mt19937 rng(random_device{}());
+    static uniform_int_distribution<int> dist(100000, 999999);
+    int code = dist(rng);
+    return to_string(code);
+}
+
+string OtpService::requestOtp(const string& accountNumber, int& secondsRemaining) {
+    auto now = chrono::steady_clock::now();
+    auto it = otps.find(accountNumber);
+    if (it != otps.end() && it->second.expiresAt > now) {
+        secondsRemaining = static_cast<int>(chrono::duration_cast<chrono::seconds>(it->second.expiresAt - now).count());
+        return it->second.code;
+    }
+    OtpEntry entry;
+    entry.code = generateCode();
+    entry.expiresAt = now + chrono::seconds(120);
+    otps[accountNumber] = entry;
+    secondsRemaining = 120;
+    return entry.code;
+}
+
+OtpStatus OtpService::verifyOtp(const string& accountNumber, const string& code) {
+    auto it = otps.find(accountNumber);
+    if (it == otps.end()) return OtpStatus::Invalid;
+
+    if (it->second.expiresAt <= chrono::steady_clock::now()) {
+        otps.erase(it);
+        return OtpStatus::Expired;
+    }
+    if (it->second.code != code) return OtpStatus::Invalid;
+
+    otps.erase(it);
+    return OtpStatus::Valid;
+}
+
 //••••••••••••••••••TransactionService••••••••••••••••••
 // Handles money operations and transaction history.
-TransactionService::TransactionService(FileManager& fm, AccountService& as, AuthService& auth, FeeManager& fee)
-    : accountService(as), fileManager(fm), authService(auth), feeManager(fee) {
+TransactionService::TransactionService(FileManager& fm, AccountService& as, RequestService& rs, AuthService& auth, FeeManager& fee)
+    : accountService(as), fileManager(fm), requestService(rs), authService(auth), feeManager(fee) {
     fileManager.loadNextTransactionId(nextTransactionId);
     transactions = fileManager.loadTransactions();
     for (auto& tx : transactions) {
@@ -680,6 +505,27 @@ Result<shared_ptr<Transaction>> TransactionService::deposit(const string& accoun
     }
     account->deposit(amount);
     auto tx = make_shared<Transaction>(nextTransactionId++, "DEPOSIT", amount, accountNumber, "", account->getBalance());
+    account->addTransaction(tx);
+    transactions.push_back(tx);
+    fileManager.saveAccounts(accountService.getAccounts());
+    fileManager.saveTransactions(transactions);
+    fileManager.saveNextTransactionId(nextTransactionId);
+    return Result<shared_ptr<Transaction>>::success(tx);
+}
+
+Result<shared_ptr<Transaction>> TransactionService::debitForPaya(const string& accountNumber, double amount) {
+    auto account = accountService.getAccount(accountNumber);
+    if (!account) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::NotFound, "Account not found."));
+    }
+    if (!account->isActive()) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::AccountInactive));
+    }
+    if (account->getBalance() < amount) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::InsufficientFunds));
+    }
+    account->deposit(-amount);
+    auto tx = make_shared<Transaction>(nextTransactionId++, "PAYA", amount, accountNumber, "", account->getBalance());
     account->addTransaction(tx);
     transactions.push_back(tx);
     fileManager.saveAccounts(accountService.getAccounts());
@@ -711,10 +557,6 @@ Result<shared_ptr<Transaction>> TransactionService::withdraw(const string& accou
         return Result<shared_ptr<Transaction>>::failure(err);
     }
 
-    if (account->getBalance() < amount) {
-        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::InsufficientFunds));
-    }
-
     auto tx = make_shared<Transaction>(nextTransactionId++, "WITHDRAWAL", amount, accountNumber, "", account->getBalance());
     account->addTransaction(tx);
     transactions.push_back(tx);
@@ -727,6 +569,9 @@ Result<shared_ptr<Transaction>> TransactionService::withdraw(const string& accou
 Result<shared_ptr<Transaction>> TransactionService::transfer(const string& from, const string& to, double amount, InputQueue& inputQueue, const string& wrongPasswordMessage) {
     if (amount <= 0) {
         return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::InvalidAmount));
+    }
+    if (amount > TransactionLimits::MAX_TRANSFER_AMOUNT) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::Custom, "Transaction limit exceeded."));
     }
     auto fromAccount = accountService.getAccount(from);
     if (!fromAccount) {
@@ -767,6 +612,55 @@ Result<shared_ptr<Transaction>> TransactionService::transfer(const string& from,
         fromAccount->addTransaction(feeTx);
         transactions.push_back(feeTx);
     }
+
+    fileManager.saveAccounts(accountService.getAccounts());
+    fileManager.saveTransactions(transactions);
+    fileManager.saveNextTransactionId(nextTransactionId);
+    return Result<shared_ptr<Transaction>>::success(tx);
+}
+
+Result<shared_ptr<Transaction>> TransactionService::onlinePayment(const string& from, const string& to, double amount, const string& enteredOtp, OtpService& otpService) {
+    if (amount <= 0) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::InvalidAmount));
+    }
+    if (amount > TransactionLimits::MAX_ONLINE_PAYMENT_AMOUNT) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::Custom, "Transaction limit exceeded."));
+    }
+    auto fromAccount = accountService.getAccount(from);
+    if (!fromAccount) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::NotFound, "Source account not found."));
+    }
+    if (!fromAccount->isActive()) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::AccountInactive));
+    }
+    auto toAccount = accountService.getAccount(to);
+    if (!toAccount) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::NotFound, "Destination account not found."));
+    }
+    if (!toAccount->isActive()) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::DestinationInactive));
+    }
+
+    OtpStatus status = otpService.verifyOtp(from, enteredOtp);
+    if (status == OtpStatus::Expired) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::Custom, "OTP expired."));
+    }
+    if (status == OtpStatus::Invalid) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::Custom, "Invalid OTP."));
+    }
+
+    double fee = feeManager.getTransferFee();
+    if (fromAccount->getBalance() < amount + fee) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::InsufficientFunds));
+    }
+
+    fromAccount->deposit(-(amount + fee));
+    toAccount->deposit(amount);
+
+    auto tx = make_shared<Transaction>(nextTransactionId++, "ONLINE_PAYMENT", amount, from, to, fromAccount->getBalance());
+    fromAccount->addTransaction(tx);
+    toAccount->addTransaction(tx);
+    transactions.push_back(tx);
 
     fileManager.saveAccounts(accountService.getAccounts());
     fileManager.saveTransactions(transactions);
@@ -848,6 +742,10 @@ void TransactionService::getHistory(string& accountNumber) const {
             if (tx->getFromAccount() == accountNumber) { runningBalance -= tx->getAmount(); sign = "-"; }
             else { runningBalance += tx->getAmount(); sign = "+"; }
         }
+        else if (tx->getType() == "PAYA") {
+            runningBalance -= tx->getAmount();
+            sign = "-";
+        }
         cout << tx->getId()
              << " | " << tx->getTimestamp()
              << " | " << left << setw(10) << tx->getType()
@@ -897,295 +795,122 @@ VoidResult TransactionService::clearHistory(string& accountNumber, InputQueue& i
     return VoidResult::success();
 }
 
-void TransactionService::resetAll() {
+void TransactionService::reset() {
     transactions.clear();
-    accountService.reset();
     nextTransactionId = 1001;
+}
+
+//••••••••••••••••••PayaService••••••••••••••••••
+PayaService::PayaService(FileManager& fm, AccountService& as, TransactionService& ts, RequestService& rs)
+    : fileManager(fm), accountService(as), transactionService(ts), requestService(rs) {
+    requests = fileManager.loadPayaRequests();
+    nextRequestId = 5001;
+    for (auto& r : requests) nextRequestId = max(nextRequestId, r->getId() + 1);
+}
+
+shared_ptr<PayaRequest> PayaService::findRequest(int id) {
+    for (auto& r : requests) if (r->getId() == id) return r;
+    return nullptr;
+}
+
+Result<shared_ptr<PayaRequest>> PayaService::createRequest(const string& fromAccount, const string& destinationIban, double amount) {
+    if (amount <= 0) {
+        return Result<shared_ptr<PayaRequest>>::failure(ServiceError(ServiceError::Code::InvalidAmount));
+    }
+    if (amount > TransactionLimits::MAX_PAYA_AMOUNT) {
+        return Result<shared_ptr<PayaRequest>>::failure(ServiceError(ServiceError::Code::Custom, "Transaction limit exceeded."));
+    }
+    auto from = accountService.getAccount(fromAccount);
+    if (!from) {
+        return Result<shared_ptr<PayaRequest>>::failure(ServiceError(ServiceError::Code::NotFound, "Source account not found."));
+    }
+    if (!from->isActive()) {
+        return Result<shared_ptr<PayaRequest>>::failure(ServiceError(ServiceError::Code::AccountInactive));
+    }
+    if (!IbanGenerator::isValid(destinationIban)) {
+        return Result<shared_ptr<PayaRequest>>::failure(ServiceError(ServiceError::Code::NotFound, "Invalid destination IBAN"));
+    }
+
+    string destinationAccount = IbanGenerator::toAccountNumber(destinationIban);
+    auto to = accountService.getAccount(destinationAccount);
+    if (!to) {
+        return Result<shared_ptr<PayaRequest>>::failure(ServiceError(ServiceError::Code::NotFound, "Invalid destination IBAN"));
+    }
+    auto debitResult = transactionService.debitForPaya(fromAccount, amount);
+    if (!debitResult.isOk()) {
+        return Result<shared_ptr<PayaRequest>>::failure(debitResult.getError());
+    }
+
+    auto req = make_shared<PayaRequest>(nextRequestId++, fromAccount, destinationAccount, amount);
+    requests.push_back(req);
+    fileManager.savePayaRequests(requests);
+    return Result<shared_ptr<PayaRequest>>::success(req);
+}
+
+void PayaService::listRequests() const {
+    if (requests.empty()) {
+        cout << "No paya requests." << endl;
+        return;
+    }
+    for (size_t i = 0; i < requests.size(); i++) {
+        auto& r = requests[i];
+        string status = r->getStatus();
+        string displayStatus = status;
+        if (status == "PENDING") displayStatus = "Pending";
+        else if (status == "APPROVED") displayStatus = "Completed";        
+        else if (status == "REJECTED") displayStatus = "Rejected";
+
+        string iban = IbanGenerator::generate(r->getDestinationAccount());
+        iban.erase(remove(iban.begin(), iban.end(), ' '), iban.end());
+
+        cout << "Source Account: " << r->getFromAccount() << endl;
+        cout << "Request ID: " << r->getId() << endl;
+        cout << "Destination IBAN: " << iban << endl;
+        cout << "Amount: " << fixed << setprecision(2) << r->getAmount() << endl;
+        cout << "Status: " << displayStatus << endl;
+
+        if (i + 1 < requests.size()) cout << endl;
+    }
+}
+
+Result<shared_ptr<Transaction>> PayaService::approve(int requestId) {
+    auto req = findRequest(requestId);
+    if (!req || req->getStatus() != "PENDING") {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::NotFound, "Request not found."));
+    }
+    auto to = accountService.getAccount(req->getDestinationAccount());
+    if (!to) {
+        return Result<shared_ptr<Transaction>>::failure(ServiceError(ServiceError::Code::NotFound, "Destination account not found."));
+    }
+    auto txResult = transactionService.deposit(req->getDestinationAccount(), req->getAmount());
+    if (!txResult.isOk()) {
+        return txResult;
+    }
+
+    req->setStatus("APPROVED");
+    fileManager.savePayaRequests(requests);
+    return txResult;
+}
+
+VoidResult PayaService::reject(int requestId) {
+    auto req = findRequest(requestId);
+    if (!req || req->getStatus() != "PENDING") {
+        return VoidResult::failure(ServiceError(ServiceError::Code::NotFound, "Request not found."));
+    }
+    auto from = accountService.getAccount(req->getFromAccount());
+    if (from) {
+        transactionService.deposit(req->getFromAccount(), req->getAmount());
+    }
+    req->setStatus("REJECTED");
+    fileManager.savePayaRequests(requests);
+    return VoidResult::success();
+}
+
+void PayaService::resetAll(){
+    requests.clear();
+    nextRequestId = 5001;
+    accountService.reset();
+    transactionService.reset();
+    requestService.resetAll();
     fileManager.resetFiles();
-}
-
-const vector<shared_ptr<Transaction>>& TransactionService::getAllTransactions() const {
-    return transactions;
-}
-
-//••••••••••••••••••Input_Handling••••••••••••••••••
-
-bool CommandParser::isValidAccountNumber(const string& acc) {
-    if (acc.size() != 19) return false;
-    if (acc[4] != '-' || acc[9] != '-' || acc[14] != '-') return false;
-    for (int i = 0; i < 19; i++) {
-        if (i == 4 || i == 9 || i == 14) continue;
-        if (!isdigit(acc[i])) return false;
-    }
-    return true;
-}
-
-VoidResult CommandParser::requireArgs(const string& args, int count) {
-    if (args.empty()) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InvalidArguments));
-    }
-    istringstream iss(args);
-    string token;
-    for (int i = 0; i < count; i++) {
-        if (!(iss >> token)) {
-            return VoidResult::failure(ServiceError(ServiceError::Code::InvalidArguments));
-        }
-    }
-    return VoidResult::success();
-}
-
-VoidResult CommandParser::parseAccountAmount(const string& args, string& acc, double& amount) {
-    istringstream iss(args);
-    if (!(iss >> acc >> amount)) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InvalidArguments));
-    }
-    if (!isValidAccountNumber(acc)) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InvalidArguments));
-    }
-    if (amount <= 0) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InvalidAmount));
-    }
-    return VoidResult::success();
-}
-
-VoidResult CommandParser::parseTransfer(const string& args, string& from, string& to, double& amount) {
-    istringstream iss(args);
-    if (!(iss >> from >> to >> amount)) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InvalidArguments));
-    }
-    if (!isValidAccountNumber(from) || !isValidAccountNumber(to)) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InvalidArguments));
-    }
-    if (amount <= 0) {
-        return VoidResult::failure(ServiceError(ServiceError::Code::InvalidAmount));
-    }
-    return VoidResult::success();
-}
-
-bool CommandParser::confirm(InputQueue& inputQueue, const string& prompt) {
-    string answer;
-    cout << prompt << flush;
-    inputQueue.getLineBlocking(answer);
-    return answer == "yes";
-}
-
-AdminCommandContext::AdminCommandContext(AccountService& as, TransactionService& ts, AuthService& authS, FeeManager& fm, InputQueue& iq)
-    : accounts(as), transactions(ts), auth(authS), fees(fm), input(iq) {}
-
-void CreateBranchCommand::execute(const string& args, AdminCommandContext& ctx) {
-    string name = args;
-    if (!name.empty() and name.front() == '"') name = name.substr(1, name.size() - 2);
-    ctx.accounts.createBranch(name);
-}
-
-void ListBranchesCommand::execute(const string&, AdminCommandContext& ctx) {
-    ctx.accounts.listBranches();
-}
-
-void CreateAccountCommand::execute(const string& args, AdminCommandContext& ctx) {
-    auto argsCheck = CommandParser::requireArgs(args);
-    if (!argsCheck.isOk()) { ErrorReporter::report(argsCheck.getError()); return; }
-
-    istringstream iss(args);
-    int branchId;
-    if (!(iss >> branchId)) {
-        ErrorReporter::report(ServiceError(ServiceError::Code::InvalidArguments));
-        return;
-    }
-
-    auto result = ctx.accounts.createAccount(branchId, ctx.input);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-    cout << "Account created. Number: " << result.getValue()->getAccountNumber() << endl;
-}
-
-void CloseAccountCommand::execute(const string& args, AdminCommandContext& ctx) {
-    auto argsCheck = CommandParser::requireArgs(args);
-    if (!argsCheck.isOk()) { ErrorReporter::report(argsCheck.getError()); return; }
-
-    string acc = args;
-    auto result = ctx.accounts.closeAccount(acc, ctx.input);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-    cout << "Account closed." << endl;
-}
-
-void DeleteAccountCommand::execute(const string& args, AdminCommandContext& ctx) {
-    auto argsCheck = CommandParser::requireArgs(args);
-    if (!argsCheck.isOk()) { ErrorReporter::report(argsCheck.getError()); return; }
-
-    string acc = args;
-    auto result = ctx.accounts.deleteAccount(acc, ctx.input);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-    cout << "Account deleted." << endl;
-}
-
-void ListAccountsCommand::execute(const string&, AdminCommandContext& ctx) {
-    ctx.accounts.listAccounts();
-}
-
-void DepositCommand::execute(const string& args, AdminCommandContext& ctx) {
-    string acc; double amount;
-    auto parseCheck = CommandParser::parseAccountAmount(args, acc, amount);
-    if (!parseCheck.isOk()) { ErrorReporter::report(parseCheck.getError()); return; }
-
-    auto result = ctx.transactions.deposit(acc, amount);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-
-    auto tx = result.getValue();
-    cout << "Transaction ID: " << tx->getId() << endl;
-    cout << "New balance: " << fixed << setprecision(2) << tx->getBalanceAfter() << endl;
-}
-
-void WithdrawCommand::execute(const string& args, AdminCommandContext& ctx) {
-    string acc; double amount;
-    auto parseCheck = CommandParser::parseAccountAmount(args, acc, amount);
-    if (!parseCheck.isOk()) { ErrorReporter::report(parseCheck.getError()); return; }
-
-    auto result = ctx.transactions.withdraw(acc, amount, ctx.input);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-
-    auto tx = result.getValue();
-    cout << "Transaction ID: " << tx->getId() << endl;
-    cout << "New balance: " << fixed << setprecision(2) << tx->getBalanceAfter() << endl;
-}
-
-void TransferCommand::execute(const string& args, AdminCommandContext& ctx) {
-    string from, to; double amount;
-    auto parseCheck = CommandParser::parseTransfer(args, from, to, amount);
-    if (!parseCheck.isOk()) { ErrorReporter::report(parseCheck.getError()); return; }
-
-    double feeCharged = ctx.fees.getTransferFee();
-    auto result = ctx.transactions.transfer(from, to, amount, ctx.input);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-
-    auto tx = result.getValue();
-    cout << "Transaction ID: " << tx->getId() << endl;
-    cout << fixed << setprecision(2) << "Transfer fee: " << feeCharged << endl;
-    cout << "New balance: " << fixed << setprecision(2) << tx->getBalanceAfter() << endl;
-}
-
-void GetBalanceCommand::execute(const string& args, AdminCommandContext& ctx) {
-    auto argsCheck = CommandParser::requireArgs(args);
-    if (!argsCheck.isOk()) { ErrorReporter::report(argsCheck.getError()); return; }
-
-    string acc = args;
-    // double fee = ctx.fees.getBalanceInquiryFee();
-    auto result = ctx.transactions.getBalance(acc);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-
-    // auto account = result.getValue();
-    // cout << fixed << setprecision(2) << "Balance inquiry fee: " << fee << endl;
-    // cout << "Balance: " << fixed << setprecision(2) << account->getBalance() << endl;
-    // cout << "Active: " << (account->isActive() ? "Yes" : "No") << endl;
-    // cout << "Branch: " << account->getBranchId() << endl;
-}
-
-void GetHistoryCommand::execute(const string& args, AdminCommandContext& ctx) {
-    auto argsCheck = CommandParser::requireArgs(args);
-    if (!argsCheck.isOk()) { ErrorReporter::report(argsCheck.getError()); return; }
-    string acc = args;
-    ctx.transactions.getHistory(acc);
-}
-
-void GetTransactionCommand::execute(const string& args, AdminCommandContext& ctx) {
-    auto argsCheck = CommandParser::requireArgs(args);
-    if (!argsCheck.isOk()) { ErrorReporter::report(argsCheck.getError()); return; }
-    istringstream iss(args);
-    int id;
-    if (!(iss >> id)) {
-        ErrorReporter::report(ServiceError(ServiceError::Code::InvalidArguments));
-        return;
-    }
-    ctx.transactions.getTransaction(id);
-}
-
-void ClearHistoryCommand::execute(const string& args, AdminCommandContext& ctx) {
-    auto argsCheck = CommandParser::requireArgs(args);
-    if (!argsCheck.isOk()) { ErrorReporter::report(argsCheck.getError()); return; }
-
-    string acc = args;
-    auto result = ctx.transactions.clearHistory(acc, ctx.input);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-    // cout << "History cleared for " << acc << "." << endl;
-}
-
-void ResetAllCommand::execute(const string&, AdminCommandContext& ctx) {
-    if (CommandParser::confirm(ctx.input)) {
-        ctx.transactions.resetAll();
-        cout << "All data cleared." << endl;
-    } else {
-        cout << "Cancelled." << endl;
-    }
-}
-
-void SetTransferFeeCommand::execute(const string& args, AdminCommandContext& ctx) {
-    istringstream iss(args);
-    double amount;
-    if (!(iss >> amount)) {
-        ErrorReporter::report(ServiceError(ServiceError::Code::InvalidAmount, "Invalid fee amount."));
-        return;
-    }
-    auto result = ctx.fees.setTransferFee(amount);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-}
-
-void SetBalanceInquiryFeeCommand::execute(const string& args, AdminCommandContext& ctx) {
-    istringstream iss(args);
-    double amount;
-    if (!(iss >> amount)) {
-        ErrorReporter::report(ServiceError(ServiceError::Code::InvalidAmount, "Invalid fee amount."));
-        return;
-    }
-    auto result = ctx.fees.setBalanceInquiryFee(amount);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return; }
-}
-
-void ShowFeesCommand::execute(const string&, AdminCommandContext& ctx) {
-    ctx.fees.showFees();
-}
-
-HandleAdminCommand::HandleAdminCommand() {
-    registerCommands();
-}
-
-void HandleAdminCommand::registerCommands() {
-    commands["create_branch"] = make_unique<CreateBranchCommand>();
-    commands["list_branches"] = make_unique<ListBranchesCommand>();
-    commands["create_account"] = make_unique<CreateAccountCommand>();
-    commands["close_account"] = make_unique<CloseAccountCommand>();
-    commands["delete_account"] = make_unique<DeleteAccountCommand>();
-    commands["list_accounts"] = make_unique<ListAccountsCommand>();
-    commands["deposit"] = make_unique<DepositCommand>();
-    commands["withdraw"] = make_unique<WithdrawCommand>();
-    commands["transfer"] = make_unique<TransferCommand>();
-    commands["get_balance"] = make_unique<GetBalanceCommand>();
-    commands["get_history"] = make_unique<GetHistoryCommand>();
-    commands["get_transaction"] = make_unique<GetTransactionCommand>();
-    commands["clear_history"] = make_unique<ClearHistoryCommand>();
-    commands["reset_all"] = make_unique<ResetAllCommand>();
-    commands["set_transfer_fee"] = make_unique<SetTransferFeeCommand>();
-    commands["set_balance_inquiry_fee"] = make_unique<SetBalanceInquiryFeeCommand>();
-    commands["show_fees"] = make_unique<ShowFeesCommand>();
-}
-
-bool HandleAdminCommand::isAdminCommand(const string& command) {
-    return commands.find(command) != commands.end();
-}
-
-bool HandleAdminCommand::requireArgs(const string& args, int count) {
-    auto result = CommandParser::requireArgs(args, count);
-    if (!result.isOk()) { ErrorReporter::report(result.getError()); return false; }
-    return true;
-}
-
-void HandleAdminCommand::handleCommand(string& line, AccountService& as, TransactionService& ts, AuthService& auth, FeeManager& fm, InputQueue& inputQueue) {
-    istringstream iss(line);
-    string command, args;
-    iss >> command;
-    getline(iss >> ws, args);
-
-    auto it = commands.find(command);
-    if (it == commands.end()) return;
-
-    AdminCommandContext ctx(as, ts, auth, fm, inputQueue);
-    it->second->execute(args, ctx);
 }
